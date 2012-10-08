@@ -12,22 +12,23 @@ var vals = {
 	'grasa_sat': {
 		'id':'chart_grasa-sat',
 		'val': 0,
-		'diario': 40,
+		'diario': 30,
 		'color': '#D6C7B0', //rosado
 		'graficar': true,
 	},
 	'sodio': {
-		// 'id':'chart_kcal',
+		'id':'chart_sodio',
 		'val': 0,
 		'diario': 60,
 		'color': '#9C5606', //cafe
-		// 'graficar': false,
+		'graficar': true,
 	},
 }
 
 jQuery(document).ready(function() {
 	$(window).resize(function(event) {
-		$('footer .window_width').html($(window).width());
+		// $('footer .window_width').html($(window).width());
+		console.log($(window).width());
 	});
 	/*$('#productos article').click(function(event) {
 		$(this).children('.agregar').toggleClass('activo');
@@ -57,7 +58,7 @@ function actualizarValores(producto,sumar) {
 	vals.grasa_sat.val += $(producto).data('grasa-sat')*sumar;
 	vals.sodio.val += $(producto).data('sodio')*sumar;
 	actualizarGraficos();
-	$('footer .kcal').html(vals.kcal.val.toFixed(2));
+	console.lot(vals.kcal.val.toFixed(2));
 }
 function actualizarGraficos () {
 
@@ -93,28 +94,6 @@ function dibujarPieChart (id, data, seriesColors) {
 
 	var plot2 = $.jqplot (id, [data], 
 	{
-		seriesColors: seriesColors,
-		gridPadding: {top:0, bottom:0, left:0, right:0},
-		grid: {
-			drawBorder: false,
-			background: 'transparent',
-			shadow:false,
-	    },
-		seriesDefaults: {
-			renderer: $.jqplot.PieRenderer,
-			shadowAngle: 90,
-			rendererOptions:{
-				diameter: 85,
-				shadowAlpha: 0.1,
-				sliceMargin:5,
-				shadowOffset: 2,
-				shadowDepth: 2,
-			},
-		},
-	});
-
-	var plot2 = $.jqplot (id, [data], 
-	{
 		seriesColors: ["#fff", "#fff"],
 		gridPadding: {top:0, bottom:0, left:0, right:0},
 		grid: {
@@ -125,13 +104,35 @@ function dibujarPieChart (id, data, seriesColors) {
 		seriesDefaults: {
 			renderer: $.jqplot.PieRenderer, 
 			rendererOptions:  {
-				diameter: 83,
-				fill: false,
-				sliceMargin:2,
-				shadow: false,
+				diameter: 85,
+				// fill: false,
+				// sliceMargin:2,
 				lineWidth: 2,
+				shadowAngle: 90,
+				shadowAlpha: 0.1,
+				shadowOffset: 2,
+				shadowDepth: 2,
 			}
 		}, 
+	});
+
+	var plot2 = $.jqplot (id, [data], 
+	{
+		seriesColors: seriesColors,
+		gridPadding: {top:0, bottom:0, left:0, right:0},
+		grid: {
+			drawBorder: false,
+			background: 'transparent',
+			shadow:false,
+	    },
+		seriesDefaults: {
+			renderer: $.jqplot.PieRenderer,
+			rendererOptions:{
+				diameter: 82,
+				sliceMargin:5,
+				shadow: false,
+			},
+		},
 	});
 }
 
