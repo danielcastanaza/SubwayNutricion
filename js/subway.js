@@ -27,7 +27,8 @@ var vals = {
 
 jQuery(document).ready(function() {
 	$(window).resize(function(event) {
-		$('footer .window_width').html($(window).width());
+		// $('footer .window_width').html();
+		console.log($(window).width());
 	});
 	/*$('#productos article').click(function(event) {
 		$(this).children('.agregar').toggleClass('activo');
@@ -57,7 +58,7 @@ function actualizarValores(producto,sumar) {
 	vals.grasa_sat.val += $(producto).data('grasa-sat')*sumar;
 	vals.sodio.val += $(producto).data('sodio')*sumar;
 	actualizarGraficos();
-	$('footer .kcal').html(vals.kcal.val.toFixed(2));
+	console.log(vals.kcal.val.toFixed(2));
 }
 function actualizarGraficos () {
 
