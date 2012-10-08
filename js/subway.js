@@ -17,11 +17,11 @@ var vals = {
 		'graficar': true,
 	},
 	'sodio': {
-		// 'id':'chart_kcal',
+		'id':'chart_potasio',
 		'val': 0,
 		'diario': 60,
 		'color': '#9C5606', //cafe
-		// 'graficar': false,
+		'graficar': true,
 	},
 }
 
