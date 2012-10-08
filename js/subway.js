@@ -17,7 +17,7 @@ var vals = {
 		'graficar': true,
 	},
 	'sodio': {
-		'id':'chart_potasio',
+		'id':'chart_sodio',
 		'val': 0,
 		'diario': 60,
 		'color': '#9C5606', //cafe
