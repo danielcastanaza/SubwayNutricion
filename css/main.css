@@ -1,0 +1,263 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Helvetica,Arial,sans-serif;
+	background: #EFEFEF;
+	background-image: url(../images/fondo_iphone.png);
+	background-size:100% auto;
+	/*height: 100%;*/
+	/*overflow: hidden;*/
+}
+
+header
+{
+	margin: 0;
+	padding: 0;
+	/*border-top: 3px solid #C9E0ED;*/
+}
+#resultado{
+	background-image: url(../images/resultado_fondo.png);
+	background-size: 743px auto;
+	/*background-repeat: repeat-y;*/
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+	/*height: 40%;*/
+	z-index: 100;
+}
+#resultado header{
+	background-image: url(../images/resultado_sombra.png);
+	background-repeat: repeat-x;
+	background-size: 15px auto;
+	height: 23px;
+	position: relative;
+	top: -29px;
+	padding-top: 37px;
+}
+#resultado h1{
+
+	border-bottom: 1px solid rgba(0,0,0,0.28);
+	margin: 0;
+	color: #1A451F;
+	font-size: 15px;
+	height: 20px;
+	padding: 0 10px 4px 10px;
+}
+#resultado .mover{
+	background-color: transparent;
+	background-image:url(../images/mover.png);
+	background-repeat: no-repeat;
+	background-size: 21px auto;
+	border: none;
+	float: right;
+	height: 20px;
+	width: 21px;
+}
+#resultado .pie_chart{
+	width: 30%;
+	float: left;
+}
+#resultado .pie_chart h2{
+	margin: 10px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #1A451F;
+
+}
+#resultado .pie_chart .chart{
+	margin: 0 auto;
+	
+}
+
+#productos{
+	padding-bottom: 180px;
+	/*height:60%;*/
+	/*overflow: auto;*/
+}
+#productos h2{
+	font-size: 17px;
+	color: white;
+	background-color: rgba(0,0,0,0.31);
+	margin: 0;
+	padding: 8px;
+	border-top: 1px solid rgba(201,255,202,0.39);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.60);
+	/*margin:10px 0;*/
+}
+#productos .ocultar{
+	background-color:transparent;
+	background-image: url(../images/ocultar_mostrar.png);
+	background-repeat: no-repeat;
+	background-size: 52px 26px;
+	background-position: left;
+	border: none;
+	float: right;
+	height: 26px;
+	margin-top: -3px;
+	width: 26px;
+	padding: 0;
+}
+#productos .ocultar.mostrar{
+	background-position: right;
+}
+#productos .contenido{
+	padding: 10px;
+	overflow:hidden;
+}
+#productos article div{
+	position: relative;
+	background: rgb(113,185,67); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(113,185,67,0) 0%,rgba(72,144,68,0.41) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(113,185,67,0)), color-stop(100%,rgba(72,144,68,0.41))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(113,185,67,0) 0%,rgba(72,144,68,0.41) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(113,185,67,0) 0%,rgba(72,144,68,0.41) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(113,185,67,0) 0%,rgba(72,144,68,0.41) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(113,185,67,0) 0%,rgba(72,144,68,0.41) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71b943', endColorstr='#489044',GradientType=0 ); /* IE6-9 */
+	/*width: 100%;*/
+	/*margin: 0 10px;*/
+	height: 53px;
+	
+	border: 1px solid rgba(157,214,152,0.40);
+	border-top: none;
+	padding: 1px 70px 1px 97px;
+}
+#productos article:first-child div{
+	/*margin-top: 10px;*/
+	border-top: 1px solid rgba(157,214,152,0.40);
+	border-radius: 10px 10px 0 0;
+}
+#productos article:last-child div{
+	/*margin-bottom: 10px;*/
+	border-radius: 0 0 10px 10px;
+}
+
+
+#productos article img{
+	width: 86px;
+	height: 46px;
+	background-size: 100% auto;
+	border: none;
+	background-position: center center;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.67);
+	float: left;
+	/*margin-right: 8px;*/
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+#productos h3{
+	color: #D4F2D3;
+	font-size: 15px;
+	line-height: 43px;
+	margin: 0;
+	height:47px;
+}
+#productos h3 span{
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#productos .agregar{
+	background-color:transparent;
+	background-image: url(../images/agregar_des.png);
+	background-repeat: no-repeat;
+	background-size: 26px 26px;
+	border: none;
+	position: absolute;
+	right: 42px;
+	top: 19px;
+	height: 28px;
+	margin-top: -3px;
+	width: 28px;
+	padding: 0;
+}
+#productos .agregar.activo{
+	background-image: url(../images/agregar.png);
+}
+#productos .detalle{
+	background-color:transparent;
+	background-image: url(../images/detalle.png);
+	background-repeat: no-repeat;
+	background-size: 26px 26px;
+	border: none;
+	position: absolute;
+	right: 12px;
+	top: 19px;
+	height: 28px;
+	margin-top: -3px;
+	width: 28px;
+	padding: 0;
+}
+
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+@media only screen and (min-width: 702px){
+  
+body{
+	background-image: url(../images/fondo_ipad.png);
+}
+#resultado {
+	background-size: 100% auto;
+}
+
+#productos article div{
+	border: 1px solid rgba(157,214,152,0.40);
+}
+#productos article:nth-child(odd) {/*impar*/
+	float: left;
+	width: 50%;
+}
+#productos article:nth-child(even) {/*par*/
+	float: right;
+	width: 50%;
+}
+#productos article:nth-child(odd) div{/*impar*/
+	border-bottom: none;
+}
+#productos article:nth-child(even) div{/*par*/
+	border-bottom: none;
+	border-left: none;
+}
+
+
+#productos article:first-child div, #productos article:last-child div{
+	border-radius: 0;
+}
+#productos article:first-child div{
+	border-top-left-radius:10px;
+}
+#productos article:nth-child(2) div{
+	border-top-right-radius:10px;
+}
+#productos article:nth-child(even):last-child div{/*par*/
+	border-bottom-right-radius:10px;
+	border-bottom: 1px solid rgba(157,214,152,0.40);
+}
+#productos article:nth-child(odd):nth-last-child(2) div{/*izq impar*/
+	border-bottom-left-radius:10px;
+	border-bottom: 1px solid rgba(157,214,152,0.40);
+}
+#productos article:nth-child(odd):last-child div{/*izq impar*/
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom: 1px solid rgba(157,214,152,0.40);
+}
+#productos article:nth-child(even):nth-last-child(2) div{/*par*/
+	border-bottom-right-radius:10px;
+	border-bottom: 1px solid rgba(157,214,152,0.40);
+}
