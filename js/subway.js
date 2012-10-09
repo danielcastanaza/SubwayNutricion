@@ -37,7 +37,9 @@ jQuery(document).ready(function() {
 	});
 
 	
+
 	$('#resultado h1').toggle(function() {
+		// resultadoAtras();
 		height = $(window).height()-55;
 		if ($(window).width() <= 702) {
 			$(this).parent().next().animate({'height': height});
@@ -45,14 +47,34 @@ jQuery(document).ready(function() {
 			$(this).parent().next().animate({'height': 0});
 		}
 	}, function() {
+		// resultadoAtras();
 		$(this).parent().next().animate({'height': 140});
 	}, function() {
+		// resultadoAtras();
 		$(this).parent().next().animate({'height': 0});
 	}, function() {
+		// resultadoAtras();
 		$(this).parent().next().animate({'height': 140});
 	});
+
+	$('#productos article .detalle').click(function(event) {
+		height = $(window).height()-55;
+		$('#resultado .detalle').show();
+		$('#resultado .atras').show();
+		$('#resultado .contenido').animate({'height': height});
+		$('#resultado .valores').hide();
+		$('#resultado .graficos').hide();
+		console.log($(this).siblings('h3').text());
+		$('#resultado h1').text($(this).siblings('h3').text());
+		return false;
+	});
+
+	$('#resultado .atras').click(function(event) {
+		resultadoAtras();
+		$('#resultado .contenido').animate({'height': 140});
+	});
 	
-	$('#productos article').toggle(function() {
+	$('#productos article ').toggle(function() {
 		actualizarValores(this,1);
 		$(this).find('.agregar').addClass('activo');
 	}, function() {
@@ -68,6 +90,14 @@ jQuery(document).ready(function() {
 	actualizarGraficos();
 	actualizarTabla();
 });
+
+function resultadoAtras(){
+	$('#resultado .detalle').hide();
+	$('#resultado .atras').hide();
+	$('#resultado .valores').show();
+	$('#resultado .graficos').show();
+	$('#resultado h1').text('Recomendación diaria (2000 kcal)');
+}
 
 function actualizarValores(producto,sumar) {
 	$.each(vals, function(key, val) {
