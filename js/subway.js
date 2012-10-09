@@ -3,53 +3,54 @@ var vacio_color = '#94C493'; //verde opaco
 
 var vals = {
 	'kcal': {
-		'id':'chart_kcal',
 		'val': 0,
 		'diario': 20,
 		'color': '#F5E834', //amarillo
 		'graficar': true,
 	},
-	'grasa_sat': {
-		'id':'chart_grasa-sat',
+	'grasa-sat': {
 		'val': 0,
 		'diario': 40,
 		'color': '#D6C7B0', //rosado
 		'graficar': true,
 	},
 	'sodio': {
-		'id':'chart_sodio',
 		'val': 0,
 		'diario': 60,
 		'color': '#9C5606', //cafe
 		'graficar': true,
 	},
+	'carbohidrato': {
+		'val': 0,
+	},
+	'proteina': {
+		'val': 0,
+	},
+	'grasa-total': {
+		'val': 0,
+	},
 }
 
 jQuery(document).ready(function() {
 	$(window).resize(function(event) {
-		// $('footer .window_width').html();
 		console.log($(window).width());
 	});
 
 	
-		$('#resultado h1').toggle(function() {
-			height = $(window).height()-55;
-			if ($(window).width() <= 702) {
-				$(this).parent().next().animate({'height': height});
-			}else{
-				$(this).parent().next().animate({'height': 0});
-			}
-		}, function() {
-			$(this).parent().next().animate({'height': 140});
-		}, function() {
+	$('#resultado h1').toggle(function() {
+		height = $(window).height()-55;
+		if ($(window).width() <= 702) {
+			$(this).parent().next().animate({'height': height});
+		}else{
 			$(this).parent().next().animate({'height': 0});
-		}, function() {
-			$(this).parent().next().animate({'height': 140});
-		});
-
-	
-
-
+		}
+	}, function() {
+		$(this).parent().next().animate({'height': 140});
+	}, function() {
+		$(this).parent().next().animate({'height': 0});
+	}, function() {
+		$(this).parent().next().animate({'height': 140});
+	});
 	
 	$('#productos article').toggle(function() {
 		actualizarValores(this,1);
@@ -59,57 +60,52 @@ jQuery(document).ready(function() {
 		$(this).find('.agregar').removeClass('activo');
 	});
 	
-	
 	$('.categoria h2').click(function(event) {
 		$(this).next().slideToggle(200);
 		$(this).children('button').toggleClass('mostrar');
 	});
 
 	actualizarGraficos();
-
+	actualizarTabla();
 });
 
 function actualizarValores(producto,sumar) {
-
-	vals.kcal.val += $(producto).data('kcal')*sumar;
-	vals.grasa_sat.val += $(producto).data('grasa-sat')*sumar;
-	vals.sodio.val += $(producto).data('sodio')*sumar;
+	$.each(vals, function(key, val) {
+		val.val += $(producto).data(key)*sumar;
+	});
 	actualizarGraficos();
-	console.log(vals.kcal.val.toFixed(2));
+	actualizarTabla();
+}
+function actualizarTabla () {
+	$.each(vals, function(key, val) {
+		// console.log(key);
+		$('.valores table .'+key+' td:last').text(val.val.toFixed(2));
+	});
 }
 function actualizarGraficos () {
 
-	$.each(vals, function(i, val) {
+	$.each(vals, function(key, val) {
 		if (val.val>=val.diario) {
 			seriesColors = [lleno_color, vacio_color];
-			data = [
-				['Suma Total', val.diario],['Faltante Recomendado', 0]
-			];
+			data = [['Suma Total', val.diario],['Faltante Recomendado', 0]];
 		}
 		else{
 			seriesColors = [val.color, vacio_color];
-			data = [
-				['Suma Total', val.val],['Faltante Recomendado', val.diario-val.val]
-			];
+			data = [['Suma Total', val.val],['Faltante Recomendado', val.diario-val.val]];
 		}
 		if (val.val<=0) {
-			data = [
-				['Suma Total', 0],['Faltante Recomendado', val.diario]
-			];
+			data = [['Suma Total', 0],['Faltante Recomendado', val.diario]];
 		}
-
 		if(val.graficar){
-			dibujarPieChart (val.id, data, seriesColors);
+			dibujarPieChart (key, data, seriesColors);
 		}
-
 	});
-
 }
 
 function dibujarPieChart (id, data, seriesColors) {
-	$('#'+id).empty();
+	$('#chart_'+id).empty();
 
-	var plot2 = $.jqplot (id, [data], 
+	var plot2 = $.jqplot ('chart_'+id, [data], 
 	{
 		seriesColors: seriesColors,
 		gridPadding: {top:0, bottom:0, left:0, right:0},
@@ -131,7 +127,7 @@ function dibujarPieChart (id, data, seriesColors) {
 		},
 	});
 
-	var plot2 = $.jqplot (id, [data], 
+	var plot2 = $.jqplot ('chart_'+id, [data], 
 	{
 		seriesColors: ["#fff", "#fff"],
 		gridPadding: {top:0, bottom:0, left:0, right:0},
