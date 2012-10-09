@@ -89,8 +89,25 @@ header
 }
 #resultado .pie_chart .chart{
 	margin: 0 auto;
+	width: 90px;
+	height: 100px;
+	-webkit-transform: scale(0.5);
+	   -moz-transform: scale(0.5);
+	    -ms-transform: scale(0.5);
+	     -o-transform: scale(0.5);
+	        transform: scale(0.5);
+	-webkit-transform-origin: 0 0;
+	   -moz-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	     -o-transform-origin: 0 0;
+	        transform-origin: 0 0;	
 	
 }
+/*#resultado .pie_chart .chart canvas{
+	margin: 0 auto;
+	width: 90px !important;
+	height: 100px !important;
+}*/
 #resultado .valores, #resultado .detalle{
 	font-size: 18px;
 	color: white;
@@ -306,4 +323,13 @@ body{
 #productos article:nth-child(even):nth-last-child(2) div{/*par*/
 	border-bottom-right-radius:10px;
 	border-bottom: 1px solid rgba(157,214,152,0.40);
+}
+}
+
+@media only screen and (max-height: 340px){
+
+#resultado .contenido{
+	height: 0;
+}
+
 }

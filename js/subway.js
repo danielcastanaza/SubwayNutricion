@@ -34,6 +34,8 @@ var vals = {
 jQuery(document).ready(function() {
 	$(window).resize(function(event) {
 		console.log($(window).width());
+		console.log($(window).height());
+
 	});
 
 	
@@ -148,11 +150,11 @@ function dibujarPieChart (id, data, seriesColors) {
 			renderer: $.jqplot.PieRenderer,
 			shadowAngle: 90,
 			rendererOptions:{
-				diameter: 85,
+				diameter: 170,
 				shadowAlpha: 0.1,
-				sliceMargin:5,
+				sliceMargin:10,
 				shadowOffset: 2,
-				shadowDepth: 2,
+				shadowDepth: 4,
 			},
 		},
 	});
@@ -169,11 +171,11 @@ function dibujarPieChart (id, data, seriesColors) {
 		seriesDefaults: {
 			renderer: $.jqplot.PieRenderer, 
 			rendererOptions:  {
-				diameter: 83,
+				diameter: 166,
 				fill: false,
-				sliceMargin:2,
+				sliceMargin:4,
 				shadow: false,
-				lineWidth: 2,
+				lineWidth: 4,
 			}
 		}, 
 	});
