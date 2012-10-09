@@ -30,10 +30,27 @@ jQuery(document).ready(function() {
 		// $('footer .window_width').html();
 		console.log($(window).width());
 	});
-	/*$('#productos article').click(function(event) {
-		$(this).children('.agregar').toggleClass('activo');
-		// agregarCaloria($(this).data('kcal'));
-	});*/
+
+	
+		$('#resultado h1').toggle(function() {
+			height = $(window).height()-55;
+			if ($(window).width() <= 702) {
+				$(this).parent().next().animate({'height': height});
+			}else{
+				$(this).parent().next().animate({'height': 0});
+			}
+		}, function() {
+			$(this).parent().next().animate({'height': 140});
+		}, function() {
+			$(this).parent().next().animate({'height': 0});
+		}, function() {
+			$(this).parent().next().animate({'height': 140});
+		});
+
+	
+
+
+	
 	$('#productos article').toggle(function() {
 		actualizarValores(this,1);
 		$(this).find('.agregar').addClass('activo');
