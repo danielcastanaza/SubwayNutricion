@@ -1,0 +1,86 @@
+{"categoria":[{
+	"nombre":"Panes y Tortillas",
+	"contenido":{
+		"producto":[{
+			"nombre" : "15 cm Pan Integral",
+			"tamano" : 70,
+			"kcal" : 186,
+			"carbohidratos" : 34.02,
+			"proteinas" : 7.98,
+			"grasa-total" : 2,
+			"grasa-sat" : 0.7,
+			"sodio" : 247
+		},{
+			"nombre" : "15 cm Pan Blanco Ajonjoli",
+			"tamano" : 70,
+			"kcal" : 200,
+			"carbohidratos" : 36.89,
+			"proteinas" : 8.54,
+			"grasa-total" : 1.96,
+			"grasa-sat" : 0.7,
+			"sodio" : 340
+		},{
+			"nombre" : "15 cm Pan Blanco Oregano-Parmesano",
+			"tamano" : 70,
+			"kcal" : 224,
+			"carbohidratos" : 37.09,
+			"proteinas" : 10.77,
+			"grasa-total" : 3.56,
+			"grasa-sat" : 1,
+			"sodio" : 440
+		}]
+	}
+},{
+	"nombre" : "CARNES INDIVIDUALES (cantidad en subs de 15 cm y ensaladas)",
+	"contenido":{
+		"producto":[{
+			"nombre" : "Pechuga de pollo",
+			"tamano" : 71,
+			"kcal" : 80,
+			"carbohidratos" : 0,
+			"proteinas" : 16,
+			"grasa-total" : 1.5,
+			"grasa-sat" : 0.5,
+			"sodio" : 210			
+		},{
+			"nombre" : "Tocineta",
+			"tamano" : "1 unidad",
+			"kcal" : 43,
+			"carbohidratos" : 0.11,
+			"proteinas" : 2.96,
+			"grasa-total" : 3.34,
+			"grasa-sat" : 1.1,
+			"sodio" : 185
+		},{
+			"nombre" : "Jamón",
+			"tamano" : 64,
+			"kcal" : 67,
+			"carbohidratos" : 3.84,
+			"proteinas" : 10.24,
+			"grasa-total" : 1.28,
+			"grasa-sat" : 0.6,
+			"sodio" : 336
+		}]
+	}
+},{
+	"nombre" : "QUESOS  (cantidad en subs de 15 cm)",
+	"contenido":{
+		"producto":[{
+			"nombre" : "Blanco",
+			"tamano" : 11,
+			"kcal" : 40,
+			"carbohidratos" : 1,
+			"proteinas" : 2,
+			"grasa-total" : 3.5,
+			"grasa-sat" : 2,
+			"sodio" : 200
+		},{
+			"nombre" : "Amarillo",
+			"tamano" : 12,
+			"kcal" : 90,
+			"carbohidratos" : 4.43,
+			"proteinas" : 7,
+			"grasa-total" : 6
+		}]
+	}
+}]}
