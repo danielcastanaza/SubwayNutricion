@@ -1,0 +1,8 @@
+	"contenido":{
+		"producto":[
+
+		]
+	}
+
+^\t"producto([^]]+)]
+\t{3}\},?\n?[^]\w]+\{

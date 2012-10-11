@@ -4,19 +4,19 @@ var vacio_color = '#94C493'; //verde opaco
 var vals = {
 	'kcal': {
 		'val': 0,
-		'diario': 20,
+		'diario': 2000,
 		'color': '#F5E834', //amarillo
 		'graficar': true,
 	},
 	'grasa-sat': {
 		'val': 0,
-		'diario': 40,
+		'diario': 20,
 		'color': '#D6C7B0', //rosado
 		'graficar': true,
 	},
 	'sodio': {
 		'val': 0,
-		'diario': 60,
+		'diario': 2300,
 		'color': '#9C5606', //cafe
 		'graficar': true,
 	},
@@ -33,8 +33,8 @@ var vals = {
 
 jQuery(document).ready(function() {
 	$(window).resize(function(event) {
-		console.log($(window).width());
-		console.log($(window).height());
+		// console.log($(window).width());
+		// console.log($(window).height());
 
 	});
 
@@ -66,8 +66,14 @@ jQuery(document).ready(function() {
 		$('#resultado .contenido').animate({'height': height});
 		$('#resultado .valores').hide();
 		$('#resultado .graficos').hide();
-		console.log($(this).siblings('h3').text());
-		$('#resultado h1').text($(this).siblings('h3').text());
+		// console.log($(this).siblings('h3').text());
+		producto = this;
+		$('#resultado h1').text($(producto).siblings('h3').text());
+		$.each(vals, function(key, val) {
+			$('.detalle table .'+key+' td:last').text($(producto).parent().parent().data(key));
+			// console.log($(producto).parent().parent().data(key));
+			// console.log(key);
+		});
 		return false;
 	});
 
@@ -92,6 +98,10 @@ jQuery(document).ready(function() {
 	actualizarGraficos();
 	actualizarTabla();
 });
+/*function actualizarDetalle (producto) {
+
+
+}*/
 
 function resultadoAtras(){
 	$('#resultado .detalle').hide();
@@ -102,11 +112,13 @@ function resultadoAtras(){
 }
 
 function actualizarValores(producto,sumar) {
+
 	$.each(vals, function(key, val) {
+		// console.log($(producto).data(key));
 		val.val += $(producto).data(key)*sumar;
 	});
-	actualizarGraficos();
 	actualizarTabla();
+	actualizarGraficos();
 }
 function actualizarTabla () {
 	$.each(vals, function(key, val) {
@@ -117,18 +129,24 @@ function actualizarTabla () {
 function actualizarGraficos () {
 
 	$.each(vals, function(key, val) {
+
 		if (val.val>=val.diario) {
 			seriesColors = [lleno_color, vacio_color];
 			data = [['Suma Total', val.diario],['Faltante Recomendado', 0]];
 		}
-		else{
+		else if (val.val<=0) {
+			seriesColors = [val.color, vacio_color];
+			data = [['Suma Total', 0],['Faltante Recomendado', val.diario]];
+		}else if (val.val<=val.diario*0.019){
+			console.log(val.diario*0.019);
+			seriesColors = [val.color, vacio_color];
+			data = [['Suma Total', val.diario*0.019],['Faltante Recomendado', val.diario-(val.diario*0.019)]];
+		}else{
 			seriesColors = [val.color, vacio_color];
 			data = [['Suma Total', val.val],['Faltante Recomendado', val.diario-val.val]];
 		}
-		if (val.val<=0) {
-			data = [['Suma Total', 0],['Faltante Recomendado', val.diario]];
-		}
 		if(val.graficar){
+
 			dibujarPieChart (key, data, seriesColors);
 		}
 	});
@@ -136,7 +154,7 @@ function actualizarGraficos () {
 
 function dibujarPieChart (id, data, seriesColors) {
 	$('#chart_'+id).empty();
-
+	console.log(id, data);
 	var plot2 = $.jqplot ('chart_'+id, [data], 
 	{
 		seriesColors: seriesColors,

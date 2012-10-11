@@ -1,1116 +1,1200 @@
-{"categoria":[{
+{"categorias":[{
 	"nombre":"Panes y Tortillas",
-	"contenido":{
-		"producto":[{
-			"nombre" : "15 cm Pan Integral",
-			"tamano" : 70,
-			"kcal" : 186,
-			"carbohidratos" : 34.02,
-			"proteinas" : 7.98,
-			"grasa-total" : 2,
-			"grasa-sat" : 0.7,
-			"sodio" : 247
-		},{
-			"nombre" : "15 cm Pan Blanco",
-			"tamano" : 70,
-			"kcal" : 200,
-			"carbohidratos" : 36.89,
-			"proteinas" : 8.54,
-			"grasa-total" : 1.96,
-			"grasa-sat" : 0.7,
-			"sodio" : 340
-		},{
-			"nombre" : "15 cm Pan Integral con avena dulce",
-			"tamano" : 70,
-			"kcal" : 282,
-			"carbohidratos" : 50.32,
-			"proteinas" : 12.82,
-			"grasa-total" : 19.3,
-			"grasa-sat" : 0.5,
-			"sodio" : 330
-		},{
-			"nombre" : "15 cm Pan Blanco Ajonjoli",
-			"tamano" : 70,
-			"kcal" : 200,
-			"carbohidratos" : 36.89,
-			"proteinas" : 8.54,
-			"grasa-total" : 1.96,
-			"grasa-sat" : 0.7,
-			"sodio" : 340		},{
-			"nombre" : "15 cm Pan Blanco Oregano-Parmesano",
-			"tamano" : 70,
-			"kcal" : 224,
-			"carbohidratos" : 37.09,
-			"proteinas" : 10.77,
-			"grasa-total" : 3.56,
-			"grasa-sat" : 1,
-			"sodio" : 440
-		},{
-			"nombre" : "Tortilla Tomate",
-			"tamano" : "110 (1 unidad)",
-			"kcal" : 296,
-			"carbohidratos" : 54.23,
-			"proteinas" : 8.47,
-			"grasa-total" : 8.36,
-			"grasa-sat" : 2.5,
-			"sodio" : 684		},{
-			"nombre" : "Tortilla regular",
-			"tamano" : "110 (1 unidad)",
-			"kcal" : 296,
-			"carbohidratos" : 54.23,
-			"proteinas" : 8.47,
-			"grasa-total" : 8.36,
-			"grasa-sat" : 2.5,
-			"sodio" : 684
-		},{
-			"nombre" : "Tortilla Espinaca",
-			"tamano" : "110 (1 unidad)",
-			"kcal" : 296,
-			"carbohidratos" : 54.23,
-			"proteinas" : 8.47,
-			"grasa-total" : 8.36,
-			"grasa-sat" : 2.5,
-			"sodio" : 684
-		}]
-	}
+	"productos":[{
+		"nombre" : "15 cm Pan Integral",
+		"tamano" : 70,
+		"imagen":"pan-integral",
+		"kcal" : 186,
+		"carbohidratos" : 34.02,
+		"proteinas" : 7.98,
+		"grasa-total" : 2,
+		"grasa-sat" : 0.7,
+		"sodio" : 247
+	},{
+		"nombre" : "15 cm Pan Blanco",
+		"tamano" : 70,
+		"imagen":"pan-blanco",
+		"kcal" : 200,
+		"carbohidratos" : 36.89,
+		"proteinas" : 8.54,
+		"grasa-total" : 1.96,
+		"grasa-sat" : 0.7,
+		"sodio" : 340
+	},{
+		"nombre" : "15 cm Pan Integral con avena dulce",
+		"tamano" : 70,
+		"imagen":"pan-avena",
+		"kcal" : 282,
+		"carbohidratos" : 50.32,
+		"proteinas" : 12.82,
+		"grasa-total" : 19.3,
+		"grasa-sat" : 0.5,
+		"sodio" : 330
+	},{
+		"nombre" : "15 cm Pan Blanco Ajonjoli",
+		"tamano" : 70,
+		"imagen":"pan-ajonjoli",
+		"kcal" : 200,
+		"carbohidratos" : 36.89,
+		"proteinas" : 8.54,
+		"grasa-total" : 1.96,
+		"grasa-sat" : 0.7,
+		"sodio" : 340
+	},{
+		"nombre" : "15 cm Pan Blanco Oregano-Parmesano",
+		"tamano" : 70,
+		"imagen":"pan-oregano",
+		"kcal" : 224,
+		"carbohidratos" : 37.09,
+		"proteinas" : 10.77,
+		"grasa-total" : 3.56,
+		"grasa-sat" : 1,
+		"sodio" : 440
+	},{
+		"nombre" : "Tortilla Tomate",
+		"tamano" : "110 (1 unidad)",
+		"imagen":"tortilla-tomate",
+		"kcal" : 296,
+		"carbohidratos" : 54.23,
+		"proteinas" : 8.47,
+		"grasa-total" : 8.36,
+		"grasa-sat" : 2.5,
+		"sodio" : 684		
+	},{
+		"nombre" : "Tortilla regular",
+		"tamano" : "110 (1 unidad)",
+		"imagen":"tortilla",
+		"kcal" : 296,
+		"carbohidratos" : 54.23,
+		"proteinas" : 8.47,
+		"grasa-total" : 8.36,
+		"grasa-sat" : 2.5,
+		"sodio" : 684
+	},{
+		"nombre" : "Tortilla Espinaca",
+		"tamano" : "110 (1 unidad)",
+		"imagen":"tortilla-espinaca",
+		"kcal" : 296,
+		"carbohidratos" : 54.23,
+		"proteinas" : 8.47,
+		"grasa-total" : 8.36,
+		"grasa-sat" : 2.5,
+		"sodio" : 684
+	}]
 },{
-	"nombre" : "CARNES INDIVIDUALES (cantidad en subs de 15 cm y ensaladas)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Pechuga de pollo",
-			"tamano" : 71,
-			"kcal" : 80,
-			"carbohidratos" : 0,
-			"proteinas" : 16,
-			"grasa-total" : 1.5,
-			"grasa-sat" : 0.5,
-			"sodio" : 210			
-		},{
-			"nombre" : "Tocineta",
-			"tamano" : "1 unidad",
-			"kcal" : 43,
-			"carbohidratos" : 0.11,
-			"proteinas" : 2.96,
-			"grasa-total" : 3.34,
-			"grasa-sat" : 1.1,
-			"sodio" : 185
-		},{
-			"nombre" : "Jamón",
-			"tamano" : 64,
-			"kcal" : 67,
-			"carbohidratos" : 3.84,
-			"proteinas" : 10.24,
-			"grasa-total" : 1.28,
-			"grasa-sat" : 0.6,
-			"sodio" : 336
-		},{
-			"nombre" : "Pepperoni (cantidad en sandwich de pizza)",
-			"tamano" : 50,
-			"kcal" : 238,
-			"carbohidratos" : 0,
-			"proteinas" : 13,
-			"grasa-total" : 20.5,
-			"grasa-sat" : 5.5,
-			"sodio" : 983
-		},{
-			"nombre" : "Roast Beef",
-			"tamano" : 56,
-			"kcal" : 69,
-			"carbohidratos" : 0.56,
-			"proteinas" : 15.12,
-			"grasa-total" : 0.56,
-			"grasa-sat" : 0,
-			"sodio" : 308
-		},{
-			"nombre" : "Albóndigas c/salsa",
-			"tamano" : 139,
-			"kcal" : 260,
-			"carbohidratos" : 16,
-			"proteinas" : 13,
-			"grasa-total" : 16,
-			"grasa-sat" : 6,
-			"sodio" : 640
-		},{
-			"nombre" : "Pavo",
-			"tamano" : 57,
-			"kcal" : 57,
-			"carbohidratos" : 3.59,
-			"proteinas" : 8.89,
-			"grasa-total" : 0.8,
-			"grasa-sat" : 0,
-			"sodio" : 348
-		},{
-			"nombre" : "BMT",
-			"tamano" : 64,
-			"kcal" : 180,
-			"carbohidratos" : 2,
-			"proteinas" : 11,
-			"grasa-total" : 14,
-			"grasa-sat" : 5,
-			"sodio" : 990
-		},{
-			"nombre" : "Carne",
-			"tamano" : 71,
-			"kcal" : 110,
-			"carbohidratos" : 4,
-			"proteinas" : 15,
-			"grasa-total" : 4,
-			"grasa-sat" : 1.5,
-			"sodio" : 550
-		},{
-			"nombre" : "Pavo y jamón",
-			"tamano" : 70,
-			"kcal" : 67,
-			"carbohidratos" : 3.06,
-			"proteinas" : 11.58,
-			"grasa-total" : 1.02,
-			"grasa-sat" : 0.3,
-			"sodio" : 400
-		},{
-			"nombre" : "Atún",
-			"tamano" : 69,
-			"kcal" : 94,
-			"carbohidratos" : 0.6,
-			"proteinas" : 17.4,
-			"grasa-total" : 3.14,
-			"grasa-sat" : 0.3,
-			"sodio" : 363
-		},{
-			"nombre" : "Club:                                                                       Jamón                                                                   Roast Beef                                                            Pavo",
-			"tamano" : "16                                                          28                                           38",
-			"kcal" : 85,
-			"carbohidratos" : 2.38,
-			"proteinas" : 16.58,
-			"grasa-total" : 0.98,
-			"grasa-sat" : 0.2,
-			"sodio" : 469
-		},{
-			"nombre" : "Melt:                                                                         Jamon                                                                  Pavo",
-			"tamano" : "32                                            38",
-			"kcal" : 67,
-			"carbohidratos" : 3.06,
-			"proteinas" : 11.58,
-			"grasa-total" : 1.02,
-			"grasa-sat" : 0.3,
-			"sodio" : 340
-		},{
-			"nombre" : "Mariscos y Cangrejo",
-			"tamano" : 71,
-			"kcal" : 190,
-			"carbohidratos" : 7,
-			"proteinas" : 5,
-			"grasa-total" : 16,
-			"grasa-sat" : 2.5,
-			"sodio" : 430
-		},{
-			"nombre" : "Pollo Teriyaki",
-			"tamano" : 81,
-			"kcal" : 115,
-			"carbohidratos" : 3.25,
-			"proteinas" : 21.94,
-			"grasa-total" : 1.63,
-			"grasa-sat" : 0.8,
-			"sodio" : 446
-		},{
-			"nombre" : "Pizziola",
-			"tamano" : 99,
-			"kcal" : 199,
-			"carbohidratos" : 3.25,
-			"proteinas" : 26.49,
-			"grasa-total" : 8.8,
-			"grasa-sat" : 3.29,
-			"sodio" : 791
-		}]
-	}
+	"nombre" : "Carnes (subs 15 cm y ensaladas)",
+	"productos":[{
+		"nombre" : "Pechuga de pollo",
+		"tamano" : 71,
+		"imagen":"c-pechuga-pollo",
+		"kcal" : 80,
+		"carbohidratos" : 0,
+		"proteinas" : 16,
+		"grasa-total" : 1.5,
+		"grasa-sat" : 0.5,
+		"sodio" : 210			
+	},{
+		"nombre" : "Tocineta",
+		"tamano" : "1 unidad",
+		"imagen":"c-tocineta",
+		"kcal" : 43,
+		"carbohidratos" : 0.11,
+		"proteinas" : 2.96,
+		"grasa-total" : 3.34,
+		"grasa-sat" : 1.1,
+		"sodio" : 185
+	},{
+		"nombre" : "Jamón",
+		"tamano" : 64,
+		"imagen":"c-jamon",
+		"kcal" : 67,
+		"carbohidratos" : 3.84,
+		"proteinas" : 10.24,
+		"grasa-total" : 1.28,
+		"grasa-sat" : 0.6,
+		"sodio" : 336
+	},{
+		"nombre" : "Pepperoni (cantidad en sandwich de pizza)",
+		"tamano" : 50,
+		"imagen":"c-pepperoni",
+		"kcal" : 238,
+		"carbohidratos" : 0,
+		"proteinas" : 13,
+		"grasa-total" : 20.5,
+		"grasa-sat" : 5.5,
+		"sodio" : 983
+	},{
+		"nombre" : "Roast Beef",
+		"tamano" : 56,
+		"imagen":"c-roast-beef",
+		"kcal" : 69,
+		"carbohidratos" : 0.56,
+		"proteinas" : 15.12,
+		"grasa-total" : 0.56,
+		"grasa-sat" : 0,
+		"sodio" : 308
+	},{
+		"nombre" : "Albóndigas c/salsa",
+		"tamano" : 139,
+		"imagen":"c-albondigas-salsa",
+		"kcal" : 260,
+		"carbohidratos" : 16,
+		"proteinas" : 13,
+		"grasa-total" : 16,
+		"grasa-sat" : 6,
+		"sodio" : 640
+	},{
+		"nombre" : "Pavo",
+		"tamano" : 57,
+		"imagen":"c-pavo",
+		"kcal" : 57,
+		"carbohidratos" : 3.59,
+		"proteinas" : 8.89,
+		"grasa-total" : 0.8,
+		"grasa-sat" : 0,
+		"sodio" : 348
+	},{
+		"nombre" : "BMT",
+		"tamano" : 64,
+		"imagen":"c-bmt",
+		"kcal" : 180,
+		"carbohidratos" : 2,
+		"proteinas" : 11,
+		"grasa-total" : 14,
+		"grasa-sat" : 5,
+		"sodio" : 990
+	},{
+		"nombre" : "Carne",
+		"tamano" : 71,
+		"imagen":"c-carne",
+		"kcal" : 110,
+		"carbohidratos" : 4,
+		"proteinas" : 15,
+		"grasa-total" : 4,
+		"grasa-sat" : 1.5,
+		"sodio" : 550
+	},{
+		"nombre" : "Pavo y jamón",
+		"tamano" : 70,
+		"imagen":"c-pavo-jamon",
+		"kcal" : 67,
+		"carbohidratos" : 3.06,
+		"proteinas" : 11.58,
+		"grasa-total" : 1.02,
+		"grasa-sat" : 0.3,
+		"sodio" : 400
+	},{
+		"nombre" : "Atún",
+		"tamano" : 69,
+		"imagen":"c-atun",
+		"kcal" : 94,
+		"carbohidratos" : 0.6,
+		"proteinas" : 17.4,
+		"grasa-total" : 3.14,
+		"grasa-sat" : 0.3,
+		"sodio" : 363
+	},{
+		"nombre" : "Club:                                                                       Jamón                                                                   Roast Beef                                                            Pavo",
+		"tamano" : "16                                                          28                                           38",
+		"imagen":"c-club",
+		"kcal" : 85,
+		"carbohidratos" : 2.38,
+		"proteinas" : 16.58,
+		"grasa-total" : 0.98,
+		"grasa-sat" : 0.2,
+		"sodio" : 469
+	},{
+		"nombre" : "Melt:                                                                         Jamon                                                                  Pavo",
+		"tamano" : "32                                            38",
+		"imagen":"c-melt",
+		"kcal" : 67,
+		"carbohidratos" : 3.06,
+		"proteinas" : 11.58,
+		"grasa-total" : 1.02,
+		"grasa-sat" : 0.3,
+		"sodio" : 340
+	},{
+		"nombre" : "Mariscos y Cangrejo",
+		"tamano" : 71,
+		"imagen":"c-mariscos-cangrejo",
+		"kcal" : 190,
+		"carbohidratos" : 7,
+		"proteinas" : 5,
+		"grasa-total" : 16,
+		"grasa-sat" : 2.5,
+		"sodio" : 430
+	},{
+		"nombre" : "Pollo Teriyaki",
+		"tamano" : 81,
+		"imagen":"c-pollo-teriyaki",
+		"kcal" : 115,
+		"carbohidratos" : 3.25,
+		"proteinas" : 21.94,
+		"grasa-total" : 1.63,
+		"grasa-sat" : 0.8,
+		"sodio" : 446
+	},{
+		"nombre" : "Pizziola",
+		"tamano" : 99,
+		"imagen":"c-pizziola",
+		"kcal" : 199,
+		"carbohidratos" : 3.25,
+		"proteinas" : 26.49,
+		"grasa-total" : 8.8,
+		"grasa-sat" : 3.29,
+		"sodio" : 791
+	}]
 },{
-	"nombre" : "QUESOS  (cantidad en subs de 15 cm)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Blanco",
-			"tamano" : 11,
-			"kcal" : 40,
-			"carbohidratos" : 1,
-			"proteinas" : 2,
-			"grasa-total" : 3.5,
-			"grasa-sat" : 2,
-			"sodio" : 200
-		},{
-			"nombre" : "Amarillo",
-			"tamano" : 12,
-			"kcal" : 90,
-			"carbohidratos" : 4.43,
-			"proteinas" : 7,
-			"grasa-total" : 6
-		}]
-	}
+	"nombre" : "Quesos (subs de 15 cm)",
+	"productos":[{
+		"nombre" : "Blanco",
+		"tamano" : 11,
+		"imagen":"queso-blanco",
+		"kcal" : 40,
+		"carbohidratos" : 1,
+		"proteinas" : 2,
+		"grasa-total" : 3.5,
+		"grasa-sat" : 2,
+		"sodio" : 200
+	},{
+		"nombre" : "Amarillo",
+		"tamano" : 12,
+		"imagen":"queso-amarillo",
+		"kcal" : 90,
+		"carbohidratos" : 4.43,
+		"proteinas" : 7,
+		"grasa-total" : 6
+	}]
 },{
-	"nombre" : "VEGETALES (cantidad en subs de 15 cm)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Lechuga",
-			"tamano" : 21,
-			"kcal" : 2.98,
-			"carbohidratos" : 0.63,
-			"proteinas" : 0.19,
-			"grasa-total" : 0.03,
-			"grasa-sat" : 0,
-			"sodio" : 2
-		},{
-			"nombre" : "Tomate",
-			"tamano" : 37,
-			"kcal" : 6.6,
-			"carbohidratos" : 1.44,
-			"proteinas" : 0.32,
-			"grasa-total" : 0.07,
-			"grasa-sat" : 0,
-			"sodio" : 2
-		},{
-			"nombre" : "Chile Dulce",
-			"tamano" : 7,
-			"kcal" : 1.4,
-			"carbohidratos" : 0.33,
-			"proteinas" : 0.06,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0.2
-		},{
-			"nombre" : "Cebolla",
-			"tamano" : 9,
-			"kcal" : 3.6,
-			"carbohidratos" : 0.84,
-			"proteinas" : 0.09,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0.4
-		},{
-			"nombre" : "Pepinillos",
-			"tamano" : 8,
-			"kcal" : 0.87,
-			"carbohidratos" : 0.18,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 95
-		},{
-			"nombre" : "Pepino Fresco",
-			"tamano" : 9,
-			"kcal" : 1.06,
-			"carbohidratos" : 0.19,
-			"proteinas" : 0.05,
-			"grasa-total" : 0.01,
-			"grasa-sat" : 0,
-			"sodio" : 0.2
-		},{
-			"nombre" : "Espinacas",
-			"tamano" : 1,
-			"kcal" : 0.29,
-			"carbohidratos" : 0.05,
-			"proteinas" : 0.04,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 1
-		},{
-			"nombre" : "Aceitunas",
-			"tamano" : 3,
-			"kcal" : 2.88,
-			"carbohidratos" : 0.16,
-			"proteinas" : 0.02,
-			"grasa-total" : 0.27,
-			"grasa-sat" : 0.1,
-			"sodio" : 22
-		},{
-			"nombre" : "Aguacate",
-			"tamano" : 57.8,
-			"kcal" : 93,
-			"carbohidratos" : 4.93,
-			"proteinas" : 1.16,
-			"grasa-total" : 8.47,
-			"grasa-sat" : 1.23,
-			"sodio" : 4
-		},{
-			"nombre" : "Zanahoria",
-			"tamano" : 1,
-			"kcal" : 0.29,
-			"carbohidratos" : 0.1,
-			"proteinas" : 0.1,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0.5
-		},{
-			"nombre" : "Jalapeños",
-			"tamano" : 3,
-			"kcal" : 0.9,
-			"carbohidratos" : 0.18,
-			"proteinas" : 0.04,
-			"grasa-total" : 0.02,
-			"grasa-sat" : 0,
-			"sodio" : 0
-		},{
-			"nombre" : "Peperoncini",
-			"tamano" : 10,
-			"kcal" : 2.5,
-			"carbohidratos" : 0.4,
-			"proteinas" : 0.1,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 118
-		}]
-	}
+	"nombre" : "Vegetales (en subs de 15 cm)",
+	"productos":[{
+		"nombre" : "Lechuga",
+		"tamano" : 21,
+		"imagen":"v-lechuga",
+		"kcal" : 2.98,
+		"carbohidratos" : 0.63,
+		"proteinas" : 0.19,
+		"grasa-total" : 0.03,
+		"grasa-sat" : 0,
+		"sodio" : 2
+	},{
+		"nombre" : "Tomate",
+		"tamano" : 37,
+		"imagen":"v-tomate",
+		"kcal" : 6.6,
+		"carbohidratos" : 1.44,
+		"proteinas" : 0.32,
+		"grasa-total" : 0.07,
+		"grasa-sat" : 0,
+		"sodio" : 2
+	},{
+		"nombre" : "Chile Dulce",
+		"tamano" : 7,
+		"imagen":"v-chile-dulce",
+		"kcal" : 1.4,
+		"carbohidratos" : 0.33,
+		"proteinas" : 0.06,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0.2
+	},{
+		"nombre" : "Cebolla",
+		"tamano" : 9,
+		"imagen":"v-cebolla",
+		"kcal" : 3.6,
+		"carbohidratos" : 0.84,
+		"proteinas" : 0.09,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0.4
+	},{
+		"nombre" : "Pepinillos",
+		"tamano" : 8,
+		"imagen":"v-pepinillos",
+		"kcal" : 0.87,
+		"carbohidratos" : 0.18,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 95
+	},{
+		"nombre" : "Pepino Fresco",
+		"tamano" : 9,
+		"imagen":"v-pepino",
+		"kcal" : 1.06,
+		"carbohidratos" : 0.19,
+		"proteinas" : 0.05,
+		"grasa-total" : 0.01,
+		"grasa-sat" : 0,
+		"sodio" : 0.2
+	},{
+		"nombre" : "Espinacas",
+		"tamano" : 1,
+		"imagen":"v-espinacas",
+		"kcal" : 0.29,
+		"carbohidratos" : 0.05,
+		"proteinas" : 0.04,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 1
+	},{
+		"nombre" : "Aceitunas",
+		"tamano" : 3,
+		"imagen":"v-aceitunas",
+		"kcal" : 2.88,
+		"carbohidratos" : 0.16,
+		"proteinas" : 0.02,
+		"grasa-total" : 0.27,
+		"grasa-sat" : 0.1,
+		"sodio" : 22
+	},{
+		"nombre" : "Aguacate",
+		"tamano" : 57.8,
+		"imagen":"v-aguacate",
+		"kcal" : 93,
+		"carbohidratos" : 4.93,
+		"proteinas" : 1.16,
+		"grasa-total" : 8.47,
+		"grasa-sat" : 1.23,
+		"sodio" : 4
+	},{
+		"nombre" : "Zanahoria",
+		"tamano" : 1,
+		"imagen":"v-zanahoria",
+		"kcal" : 0.29,
+		"carbohidratos" : 0.1,
+		"proteinas" : 0.1,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0.5
+	},{
+		"nombre" : "Jalapeños",
+		"tamano" : 3,
+		"imagen":"v-jalapenos",
+		"kcal" : 0.9,
+		"carbohidratos" : 0.18,
+		"proteinas" : 0.04,
+		"grasa-total" : 0.02,
+		"grasa-sat" : 0,
+		"sodio" : 0
+	},{
+		"nombre" : "Peperoncini",
+		"tamano" : 10,
+		"imagen":"v-peperoncini",
+		"kcal" : 2.5,
+		"carbohidratos" : 0.4,
+		"proteinas" : 0.1,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 118
+	}]
 },{
-	"nombre" : "ADEREZOS PARA ENSALADAS",
-	"contenido":{
-		"producto":[{
-			"nombre" : "French Fat Free",
-			"tamano" : 42.5,
-			"kcal" : 60,
-			"carbohidratos" : 14,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 360
-		},{
-			"nombre" : "Italian Fat Free",
-			"tamano" : 42.5,
-			"kcal" : 25,
-			"carbohidratos" : 5,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 540
-		},{
-			"nombre" : "Ranch Fat Free",
-			"tamano" : 42.5,
-			"kcal" : 60,
-			"carbohidratos" : 14,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 410
-		}]
-	}
+	"nombre" : "Aderezos para Ensaladas",
+	"productos":[{
+		"nombre" : "French Fat Free",
+		"tamano" : 42.5,
+		"imagen":"a-french",
+		"kcal" : 60,
+		"carbohidratos" : 14,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 360
+	},{
+		"nombre" : "Italian Fat Free",
+		"tamano" : 42.5,
+		"imagen":"a-italian",
+		"kcal" : 25,
+		"carbohidratos" : 5,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 540
+	},{
+		"nombre" : "Ranch Fat Free",
+		"tamano" : 42.5,
+		"imagen":"a-ranch",
+		"kcal" : 60,
+		"carbohidratos" : 14,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 410
+	}]
 },{
-	"nombre" : "SALSAS (cantidad en subs de 15 cm)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Mayonesa",
-			"tamano" : 5.6,
-			"kcal" : 19,
-			"carbohidratos" : 0.6,
-			"proteinas" : 0.1,
-			"grasa-total" : 1.9,
-			"grasa-sat" : 0.3,
-			"sodio" : 29
-		},{
-			"nombre" : "Salsa Tomate",
-			"tamano" : 2.8,
-			"kcal" : 3,
-			"carbohidratos" : 0.7,
-			"proteinas" : 0.1,
-			"grasa-total" : 0.01,
-			"grasa-sat" : 0,
-			"sodio" : 31
-		},{
-			"nombre" : "Mostaza",
-			"tamano" : 1,
-			"kcal" : 1,
-			"carbohidratos" : 0.1,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 11
-		},{
-			"nombre" : "Vinagre",
-			"tamano" : 0.7,
-			"kcal" : 0,
-			"carbohidratos" : 0,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0
-		},{
-			"nombre" : "Aceite",
-			"tamano" : 0.8,
-			"kcal" : 7,
-			"carbohidratos" : 0,
-			"proteinas" : 0,
-			"grasa-total" : 0.8,
-			"grasa-sat" : 0.1,
-			"sodio" : 0
-		},{
-			"nombre" : "Cebolla Dulce",
-			"tamano" : 14,
-			"kcal" : 23,
-			"carbohidratos" : 5.6,
-			"proteinas" : 0.1,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 55
-		},{
-			"nombre" : "Vinagreta de Vino tinto",
-			"tamano" : 14,
-			"kcal" : 10,
-			"carbohidratos" : 1.8,
-			"proteinas" : 0.1,
-			"grasa-total" : 0.28,
-			"grasa-sat" : 0,
-			"sodio" : 230
-		},{
-			"nombre" : "Natilla",
-			"tamano" : 50,
-			"kcal" : 67,
-			"carbohidratos" : 1.7,
-			"proteinas" : 0,
-			"grasa-total" : 6,
-			"grasa-sat" : 2.5,
-			"sodio" : 0
-		},{
-			"nombre" : "Teriyaki",
-			"tamano" : 14,
-			"kcal" : 4,
-			"carbohidratos" : 2.1,
-			"proteinas" : 0.4,
-			"grasa-total" : 0.2,
-			"grasa-sat" : 0,
-			"sodio" : 164
-		},{
-			"nombre" : "Chipotle",
-			"tamano" : 14,
-			"kcal" : 62,
-			"carbohidratos" : 1.1,
-			"proteinas" : 0,
-			"grasa-total" : 6.4,
-			"grasa-sat" : 1.7,
-			"sodio" : 72
-		}]
-	}
+	"nombre" : "Salsas (en subs de 15 cm)",
+	"productos":[{
+		"nombre" : "Mayonesa",
+		"tamano" : 5.6,
+		"imagen":"s-mayonesa",
+		"kcal" : 19,
+		"carbohidratos" : 0.6,
+		"proteinas" : 0.1,
+		"grasa-total" : 1.9,
+		"grasa-sat" : 0.3,
+		"sodio" : 29
+	},{
+		"nombre" : "Salsa Tomate",
+		"tamano" : 2.8,
+		"imagen":"s-salsa-tomate",
+		"kcal" : 3,
+		"carbohidratos" : 0.7,
+		"proteinas" : 0.1,
+		"grasa-total" : 0.01,
+		"grasa-sat" : 0,
+		"sodio" : 31
+	},{
+		"nombre" : "Mostaza",
+		"tamano" : 1,
+		"imagen":"s-mostaza",
+		"kcal" : 1,
+		"carbohidratos" : 0.1,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 11
+	},{
+		"nombre" : "Vinagre",
+		"tamano" : 0.7,
+		"imagen":"s-vinagre",
+		"kcal" : 0,
+		"carbohidratos" : 0,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0
+	},{
+		"nombre" : "Aceite",
+		"tamano" : 0.8,
+		"imagen":"s-aceite",
+		"kcal" : 7,
+		"carbohidratos" : 0,
+		"proteinas" : 0,
+		"grasa-total" : 0.8,
+		"grasa-sat" : 0.1,
+		"sodio" : 0
+	},{
+		"nombre" : "Cebolla Dulce",
+		"tamano" : 14,
+		"imagen":"s-cebolla-dulce",
+		"kcal" : 23,
+		"carbohidratos" : 5.6,
+		"proteinas" : 0.1,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 55
+	},{
+		"nombre" : "Vinagreta de Vino tinto",
+		"tamano" : 14,
+		"imagen":"s-vinagreta",
+		"kcal" : 10,
+		"carbohidratos" : 1.8,
+		"proteinas" : 0.1,
+		"grasa-total" : 0.28,
+		"grasa-sat" : 0,
+		"sodio" : 230
+	},{
+		"nombre" : "Natilla",
+		"tamano" : 50,
+		"imagen":"s-natilla",
+		"kcal" : 67,
+		"carbohidratos" : 1.7,
+		"proteinas" : 0,
+		"grasa-total" : 6,
+		"grasa-sat" : 2.5,
+		"sodio" : 0
+	},{
+		"nombre" : "Teriyaki",
+		"tamano" : 14,
+		"imagen":"s-teriyaki",
+		"kcal" : 4,
+		"carbohidratos" : 2.1,
+		"proteinas" : 0.4,
+		"grasa-total" : 0.2,
+		"grasa-sat" : 0,
+		"sodio" : 164
+	},{
+		"nombre" : "Chipotle",
+		"tamano" : 14,
+		"imagen":"s-chipotle",
+		"kcal" : 62,
+		"carbohidratos" : 1.1,
+		"proteinas" : 0,
+		"grasa-total" : 6.4,
+		"grasa-sat" : 1.7,
+		"sodio" : 72
+	}]
 },{
-	"nombre" : "GALLETAS Y POSTRES",
-	"contenido":{
-		"producto":[{
-			"nombre" : "B.Triple Berry",
-			"tamano" : 85,
-			"kcal" : 361,
-			"carbohidratos" : 57,
-			"proteinas" : 4,
-			"grasa-total" : 13,
-			"grasa-sat" : 3.4,
-			"sodio" : 131
-		},{
-			"nombre" : "Galleta ChocoChips",
-			"tamano" : 45,
-			"kcal" : 220,
-			"carbohidratos" : 30,
-			"proteinas" : 2,
-			"grasa-total" : 10,
-			"grasa-sat" : 5,
-			"sodio" : 130
-		},{
-			"nombre" : "G.Macadamia",
-			"tamano" : 45,
-			"kcal" : 220,
-			"carbohidratos" : 29,
-			"proteinas" : 2,
-			"grasa-total" : 11,
-			"grasa-sat" : 5,
-			"sodio" : 130
-		},{
-			"nombre" : "G.Avena Pasas",
-			"tamano" : 45,
-			"kcal" : 200,
-			"carbohidratos" : 30,
-			"proteinas" : 3,
-			"grasa-total" : 8,
-			"grasa-sat" : 4,
-			"sodio" : 130
-		},{
-			"nombre" : "G. Doble Chocolate",
-			"tamano" : 45,
-			"kcal" : 205,
-			"carbohidratos" : 30,
-			"proteinas" : 3,
-			"grasa-total" : 10,
-			"grasa-sat" : 3,
-			"sodio" : 95
-		},{
-			"nombre" : "Pastel Manzana",
-			"tamano" : 71,
-			"kcal" : 250,
-			"carbohidratos" : 37,
-			"proteinas" : 0,
-			"grasa-total" : 10,
-			"grasa-sat" : 2,
-			"sodio" : 290
-		},{
-			"nombre" : "Raspberry Cheesecake",
-			"tamano" : 45,
-			"kcal" : 200,
-			"carbohidratos" : 29,
-			"proteinas" : 2,
-			"grasa-total" : 9,
-			"grasa-sat" : 4.5,
-			"sodio" : 120
-		},{
-			"nombre" : "CHIPS"
-		},{
-			"nombre" : "Doritos (Nacho Cheese)",
-			"tamano" : 60.2,
-			"kcal" : 320,
-			"carbohidratos" : 36,
-			"proteinas" : 4,
-			"grasa-total" : 17,
-			"grasa-sat" : 3,
-			"sodio" : 440
-		},{
-			"nombre" : "Lay&apos;s Classic",
-			"tamano" : 42.5,
-			"kcal" : 240,
-			"carbohidratos" : 23,
-			"proteinas" : 3,
-			"grasa-total" : 16,
-			"grasa-sat" : 1.5,
-			"sodio" : 250
-		},{
-			"nombre" : "Lay&apos;s Barbecue",
-			"tamano" : 42.5,
-			"kcal" : 230,
-			"carbohidratos" : 23,
-			"proteinas" : 3,
-			"grasa-total" : 15,
-			"grasa-sat" : 1.5,
-			"sodio" : 230
-		},{
-			"nombre" : "Ruffles",
-			"tamano" : 49.6,
-			"kcal" : 280,
-			"carbohidratos" : 27,
-			"proteinas" : 3,
-			"grasa-total" : 18,
-			"grasa-sat" : 2,
-			"sodio" : 240
-		},{
-			"nombre" : "Doritos Baked",
-			"tamano" : 38.9,
-			"kcal" : 170,
-			"carbohidratos" : 29,
-			"proteinas" : 3,
-			"grasa-total" : 5,
-			"grasa-sat" : 1,
-			"sodio" : 320
-		},{
-			"nombre" : "Fritos",
-			"tamano" : 77.9,
-			"kcal" : 450,
-			"carbohidratos" : 45,
-			"proteinas" : 5,
-			"grasa-total" : 28,
-			"grasa-sat" : 4,
-			"sodio" : 450
-		},{
-			"nombre" : "Lay&apos;s Baked",
-			"tamano" : 32,
-			"kcal" : 130,
-			"carbohidratos" : 23,
-			"proteinas" : 2,
-			"grasa-total" : 2,
-			"grasa-sat" : 0,
-			"sodio" : 200
-		}]
-	}
+	"nombre" : "Galletas y Postres",
+	"productos":[{
+		"nombre" : "B.Triple Berry",
+		"tamano" : 85,
+		"imagen":"g-triple-berry",
+		"kcal" : 361,
+		"carbohidratos" : 57,
+		"proteinas" : 4,
+		"grasa-total" : 13,
+		"grasa-sat" : 3.4,
+		"sodio" : 131
+	},{
+		"nombre" : "Galleta ChocoChips",
+		"tamano" : 45,
+		"imagen":"g-chocochips",
+		"kcal" : 220,
+		"carbohidratos" : 30,
+		"proteinas" : 2,
+		"grasa-total" : 10,
+		"grasa-sat" : 5,
+		"sodio" : 130
+	},{
+		"nombre" : "G.Macadamia",
+		"tamano" : 45,
+		"imagen":"g-macadamia",
+		"kcal" : 220,
+		"carbohidratos" : 29,
+		"proteinas" : 2,
+		"grasa-total" : 11,
+		"grasa-sat" : 5,
+		"sodio" : 130
+	},{
+		"nombre" : "G.Avena Pasas",
+		"tamano" : 45,
+		"imagen":"g-avena-pasas",
+		"kcal" : 200,
+		"carbohidratos" : 30,
+		"proteinas" : 3,
+		"grasa-total" : 8,
+		"grasa-sat" : 4,
+		"sodio" : 130
+	},{
+		"nombre" : "G. Doble Chocolate",
+		"tamano" : 45,
+		"imagen":"g-doble-chocolate",
+		"kcal" : 205,
+		"carbohidratos" : 30,
+		"proteinas" : 3,
+		"grasa-total" : 10,
+		"grasa-sat" : 3,
+		"sodio" : 95
+	},{
+		"nombre" : "Pastel Manzana",
+		"tamano" : 71,
+		"imagen":"g-pastel-manzana",
+		"kcal" : 250,
+		"carbohidratos" : 37,
+		"proteinas" : 0,
+		"grasa-total" : 10,
+		"grasa-sat" : 2,
+		"sodio" : 290
+	},{
+		"nombre" : "Raspberry Cheesecake",
+		"tamano" : 45,
+		"imagen":"g-raspberry-cheesecake",
+		"kcal" : 200,
+		"carbohidratos" : 29,
+		"proteinas" : 2,
+		"grasa-total" : 9,
+		"grasa-sat" : 4.5,
+		"sodio" : 120
+	}]
 },{
-	"nombre" : "BEBIDAS (ml)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Gaseosa Regular",
-			"tamano" : 250,
-			"kcal" : 100,
-			"carbohidratos" : 26,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 10
-		},{
-			"nombre" : "Gaseosa Dietetica",
-			"tamano" : 250,
-			"kcal" : 0.6,
-			"carbohidratos" : 0,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 20
-		},{
-			"nombre" : "Té Frío",
-			"tamano" : 240,
-			"kcal" : 7,
-			"carbohidratos" : 2.4,
-			"proteinas" : 0,
-			"grasa-total" : 0
-		},{
-			"nombre" : "Piña-Maracuya",
-			"tamano" : 240,
-			"kcal" : 0,
-			"carbohidratos" : "&lt; 1",
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0
-		},{
-			"nombre" : "Flor de Jamaica",
-			"tamano" : 240,
-			"kcal" : 0,
-			"carbohidratos" : 1,
-			"proteinas" : 0,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 0
-		}]
-	}	
+	"nombre" : "Chips",
+	"productos":[{
+		"nombre" : "Doritos (Nacho Cheese)",
+		"tamano" : 60.2,
+		"imagen":"doritos-nacho-cheese",
+		"kcal" : 320,
+		"carbohidratos" : 36,
+		"proteinas" : 4,
+		"grasa-total" : 17,
+		"grasa-sat" : 3,
+		"sodio" : 440
+	},{
+		"nombre" : "Lay&apos;s Classic",
+		"tamano" : 42.5,
+		"imagen":"lays-classic",
+		"kcal" : 240,
+		"carbohidratos" : 23,
+		"proteinas" : 3,
+		"grasa-total" : 16,
+		"grasa-sat" : 1.5,
+		"sodio" : 250
+	},{
+		"nombre" : "Lay&apos;s Barbecue",
+		"tamano" : 42.5,
+		"imagen":"lays-barbecue",
+		"kcal" : 230,
+		"carbohidratos" : 23,
+		"proteinas" : 3,
+		"grasa-total" : 15,
+		"grasa-sat" : 1.5,
+		"sodio" : 230
+	},{
+		"nombre" : "Ruffles",
+		"tamano" : 49.6,
+		"imagen":"ch-ruffles",
+		"kcal" : 280,
+		"carbohidratos" : 27,
+		"proteinas" : 3,
+		"grasa-total" : 18,
+		"grasa-sat" : 2,
+		"sodio" : 240
+	},{
+		"nombre" : "Doritos Baked",
+		"tamano" : 38.9,
+		"imagen":"doritos-baked",
+		"kcal" : 170,
+		"carbohidratos" : 29,
+		"proteinas" : 3,
+		"grasa-total" : 5,
+		"grasa-sat" : 1,
+		"sodio" : 320
+	},{
+		"nombre" : "Fritos",
+		"tamano" : 77.9,
+		"imagen":"ch-fritos",
+		"kcal" : 450,
+		"carbohidratos" : 45,
+		"proteinas" : 5,
+		"grasa-total" : 28,
+		"grasa-sat" : 4,
+		"sodio" : 450
+	},{
+		"nombre" : "Lay&apos;s Baked",
+		"tamano" : 32,
+		"imagen":"lays-baked",
+		"kcal" : 130,
+		"carbohidratos" : 23,
+		"proteinas" : 2,
+		"grasa-total" : 2,
+		"grasa-sat" : 0,
+		"sodio" : 200
+	}]
 },{
-	"nombre" : "SOPAS (oz)",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Tomate y Vegetales",
-			"tamano" : 10,
-			"kcal" : 90,
-			"carbohidratos" : 20,
-			"proteinas" : 3,
-			"grasa-total" : 0,
-			"grasa-sat" : 0,
-			"sodio" : 860
-		},{
-			"nombre" : "Brocoli Queso",
-			"tamano" : 10,
-			"kcal" : 200,
-			"carbohidratos" : 14,
-			"proteinas" : 4,
-			"grasa-total" : 14,
-			"grasa-sat" : 6,
-			"sodio" : 870
-		},{
-			"nombre" : "Almejas",
-			"tamano" : 10,
-			"kcal" : 150,
-			"carbohidratos" : 20,
-			"proteinas" : 5,
-			"grasa-total" : 5,
-			"grasa-sat" : 1,
-			"sodio" : 970
-		},{
-			"nombre" : "Minestrone",
-			"tamano" : 10,
-			"kcal" : 90,
-			"carbohidratos" : 15,
-			"proteinas" : 4,
-			"grasa-total" : 1,
-			"grasa-sat" : 0.5,
-			"sodio" : 800
-		}]
-	}	
+	"nombre" : "Bebidas (ml)",
+	"productos":[{
+		"nombre" : "Gaseosa Regular",
+		"tamano" : 250,
+		"imagen":"be-gaseosa",
+		"kcal" : 100,
+		"carbohidratos" : 26,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 10
+	},{
+		"nombre" : "Gaseosa Dietetica",
+		"tamano" : 250,
+		"imagen":"be-gaseosa-dietetica",
+		"kcal" : 0.6,
+		"carbohidratos" : 0,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 20
+	},{
+		"nombre" : "Té Frío",
+		"tamano" : 240,
+		"imagen":"be-te-frio",
+		"kcal" : 7,
+		"carbohidratos" : 2.4,
+		"proteinas" : 0,
+		"grasa-total" : 0
+	},{
+		"nombre" : "Piña-Maracuya",
+		"tamano" : 240,
+		"imagen":"be-pina-maracuya",
+		"kcal" : 0,
+		"carbohidratos" : "&lt; 1",
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0
+	},{
+		"nombre" : "Flor de Jamaica",
+		"tamano" : 240,
+		"imagen":"be-flor-jamaica",
+		"kcal" : 0,
+		"carbohidratos" : 1,
+		"proteinas" : 0,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 0
+	}]
 },{
-	"nombre" : "SANDWICH CON 6 O MENOS GRAMOS DE GRASA     Los valores incluyen vegetales y pan italiano para sandwich de 15 cm, no incluyen queso ni salsas",
-	"contenido":{
-		"producto":[{
-			"nombre" : "15 cm Vegetariano (sin aguacate)",
-			"tamano" : 168,
-			"kcal" : 220,
-			"carbohidratos" : 41,
-			"proteinas" : 9,
-			"grasa-total" : 2.4,
-			"grasa-sat" : 0.6,
-			"sodio" : 362
-		},{
-			"nombre" : "15 cm Roast Beef",
-			"tamano" : 224,
-			"kcal" : 290,
-			"carbohidratos" : 42,
-			"proteinas" : 25,
-			"grasa-total" : 2.9,
-			"grasa-sat" : 0.57,
-			"sodio" : 670
-		},{
-			"nombre" : "15 cm Pechuga de Pollo",
-			"tamano" : 249,
-			"kcal" : 336,
-			"carbohidratos" : 44,
-			"proteinas" : 31,
-			"grasa-total" : 4.03,
-			"grasa-sat" : 1.37,
-			"sodio" : 808
-		},{
-			"nombre" : "15 cm Pavo",
-			"tamano" : 224,
-			"kcal" : 277,
-			"carbohidratos" : 45,
-			"proteinas" : 18,
-			"grasa-total" : 3.2,
-			"grasa-sat" : 0.96,
-			"sodio" : 931
-		},{
-			"nombre" : "15 cm Club",
-			"tamano" : 250,
-			"kcal" : 306,
-			"carbohidratos" : 43,
-			"proteinas" : 26,
-			"grasa-total" : 3.4,
-			"grasa-sat" : 0.71,
-			"sodio" : 831
-		},{
-			"nombre" : "15 cm Jamón",
-			"tamano" : 232,
-			"kcal" : 287,
-			"carbohidratos" : 45,
-			"proteinas" : 20,
-			"grasa-total" : 3.69,
-			"grasa-sat" : 1.2,
-			"sodio" : 697
-		},{
-			"nombre" : "15 cm Pavo y Jamón",
-			"tamano" : 238,
-			"kcal" : 287,
-			"carbohidratos" : 44,
-			"proteinas" : 21,
-			"grasa-total" : 3.43,
-			"grasa-sat" : 0.88,
-			"sodio" : 761
-		}]
-	}
+	"nombre" : "Sopas (oz)",
+	"productos":[{
+		"nombre" : "Tomate y Vegetales",
+		"tamano" : 10,
+		"imagen":"so-tomate-vegetales",
+		"kcal" : 90,
+		"carbohidratos" : 20,
+		"proteinas" : 3,
+		"grasa-total" : 0,
+		"grasa-sat" : 0,
+		"sodio" : 860
+	},{
+		"nombre" : "Brocoli Queso",
+		"tamano" : 10,
+		"imagen":"so-brocoli-queso",
+		"kcal" : 200,
+		"carbohidratos" : 14,
+		"proteinas" : 4,
+		"grasa-total" : 14,
+		"grasa-sat" : 6,
+		"sodio" : 870
+	},{
+		"nombre" : "Almejas",
+		"tamano" : 10,
+		"imagen":"so-almejas",
+		"kcal" : 150,
+		"carbohidratos" : 20,
+		"proteinas" : 5,
+		"grasa-total" : 5,
+		"grasa-sat" : 1,
+		"sodio" : 970
+	},{
+		"nombre" : "Minestrone",
+		"tamano" : 10,
+		"imagen":"so-minestrone",
+		"kcal" : 90,
+		"carbohidratos" : 15,
+		"proteinas" : 4,
+		"grasa-total" : 1,
+		"grasa-sat" : 0.5,
+		"sodio" : 800
+	}]
 },{
-	"nombre" : "ENSALADAS Los valores incluyen vegetales y carnes, no incluyen aderezos , croutones ni queso",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Ensalada Roast beef",
-			"tamano" : 410,
-			"kcal" : 138,
-			"carbohidratos" : 14,
-			"proteinas" : 18,
-			"grasa-total" : 1.68,
-			"grasa-sat" : 0.16,
-			"sodio" : 587
-		},{
-			"nombre" : "Ensalada Pechuga de Pollo",
-			"tamano" : 435,
-			"kcal" : 184,
-			"carbohidratos" : 17,
-			"proteinas" : 25,
-			"grasa-total" : 2.75,
-			"grasa-sat" : 0.98,
-			"sodio" : 726
-		},{
-			"nombre" : "Ensalada Pavo",
-			"tamano" : 411,
-			"kcal" : 119,
-			"carbohidratos" : 16,
-			"proteinas" : 13,
-			"grasa-total" : 1.69,
-			"grasa-sat" : 0.16,
-			"sodio" : 627
-		},{
-			"nombre" : "Ensalada Jamón",
-			"tamano" : 414,
-			"kcal" : 131,
-			"carbohidratos" : 18,
-			"proteinas" : 13,
-			"grasa-total" : 2.32,
-			"grasa-sat" : 0.76,
-			"sodio" : 594
-		},{
-			"nombre" : "Ensalada Club",
-			"tamano" : 427,
-			"kcal" : 151,
-			"carbohidratos" : 16,
-			"proteinas" : 20,
-			"grasa-total" : 2.06,
-			"grasa-sat" : 0.31648
-		},{
-			"nombre" : "Ensalada Vegetariana con aguacate",
-			"tamano" : 469,
-			"kcal" : 253,
-			"carbohidratos" : 24,
-			"proteinas" : 6,
-			"grasa-total" : 18.06,
-			"grasa-sat" : 2.62,
-			"sodio" : 287
-		}]
-	}
+	"nombre" : "Sandwich (vegetales y pan italiano sub de 15 cm, sin queso ni salsas)",
+	"productos":[{
+		"nombre" : "15 cm Vegetariano (sin aguacate)",
+		"tamano" : 168,
+		"imagen":"s-vegetariano",
+		"kcal" : 220,
+		"carbohidratos" : 41,
+		"proteinas" : 9,
+		"grasa-total" : 2.4,
+		"grasa-sat" : 0.6,
+		"sodio" : 362
+	},{
+		"nombre" : "15 cm Roast Beef",
+		"tamano" : 224,
+		"imagen":"s-roast-beef",
+		"kcal" : 290,
+		"carbohidratos" : 42,
+		"proteinas" : 25,
+		"grasa-total" : 2.9,
+		"grasa-sat" : 0.57,
+		"sodio" : 670
+	},{
+		"nombre" : "15 cm Pechuga de Pollo",
+		"tamano" : 249,
+		"imagen":"s-pechuga-pollo",
+		"kcal" : 336,
+		"carbohidratos" : 44,
+		"proteinas" : 31,
+		"grasa-total" : 4.03,
+		"grasa-sat" : 1.37,
+		"sodio" : 808
+	},{
+		"nombre" : "15 cm Pavo",
+		"tamano" : 224,
+		"imagen":"s-pavo",
+		"kcal" : 277,
+		"carbohidratos" : 45,
+		"proteinas" : 18,
+		"grasa-total" : 3.2,
+		"grasa-sat" : 0.96,
+		"sodio" : 931
+	},{
+		"nombre" : "15 cm Club",
+		"tamano" : 250,
+		"imagen":"s-club",
+		"kcal" : 306,
+		"carbohidratos" : 43,
+		"proteinas" : 26,
+		"grasa-total" : 3.4,
+		"grasa-sat" : 0.71,
+		"sodio" : 831
+	},{
+		"nombre" : "15 cm Jamón",
+		"tamano" : 232,
+		"imagen":"s-jamon",
+		"kcal" : 287,
+		"carbohidratos" : 45,
+		"proteinas" : 20,
+		"grasa-total" : 3.69,
+		"grasa-sat" : 1.2,
+		"sodio" : 697
+	},{
+		"nombre" : "15 cm Pavo y Jamón",
+		"tamano" : 238,
+		"imagen":"s-pavo-jamon",
+		"kcal" : 287,
+		"carbohidratos" : 44,
+		"proteinas" : 21,
+		"grasa-total" : 3.43,
+		"grasa-sat" : 0.88,
+		"sodio" : 761
+	}]
 },{
-	"nombre" : "BURRITOS  Los valores incluyen tortilla, vegetales y carnes, no incluyen queso ni salsas",
-	"contenido":{
-		"producto":[{
-			"nombre" : "Burrito Club",
-			"tamano" : 288,
-			"kcal" : 400,
-			"carbohidratos" : 61,
-			"proteinas" : 26,
-			"grasa-total" : 9.77,
-			"grasa-sat" : 2.75,
-			"sodio" : 1272
-		},{
-			"nombre" : "Burrito Jamón",
-			"tamano" : 267,
-			"kcal" : 379,
-			"carbohidratos" : 62,
-			"proteinas" : 19,
-			"grasa-total" : 10.01,
-			"grasa-sat" : 3.2,
-			"sodio" : 1122
-		},{
-			"nombre" : "Burrito Pavo",
-			"tamano" : 264,
-			"kcal" : 367,
-			"carbohidratos" : 60,
-			"proteinas" : 19,
-			"grasa-total" : 9.38,
-			"grasa-sat" : 2.6,
-			"sodio" : 1155
-		},{
-			"nombre" : "Burrito Pechuga de pollo",
-			"tamano" : 289,
-			"kcal" : 432,
-			"carbohidratos" : 62,
-			"proteinas" : 31,
-			"grasa-total" : 10.43,
-			"grasa-sat" : 3.41,
-			"sodio" : 1254
-		},{
-			"nombre" : "Burrito Roast Beef",
-			"tamano" : 263,
-			"kcal" : 386,
-			"carbohidratos" : 59,
-			"proteinas" : 24,
-			"grasa-total" : 9.37,
-			"grasa-sat" : 2.6,
-			"sodio" : 1115
-		},{
-			"nombre" : "Burrito Vegetariano con aguacate",
-			"tamano" : 265,
-			"kcal" : 409,
-			"carbohidratos" : 63,
-			"proteinas" : 11,
-			"grasa-total" : 17.28,
-			"grasa-sat" : 3.83,
-			"sodio" : 811
-		}]
-	}
+	"nombre" : "Ensaladas (vegetales y carnes, no incluyen aderezos , croutones ni queso",
+	"productos":[{
+		"nombre" : "Ensalada Roast beef",
+		"tamano" : 410,
+		"imagen":"e-roast-beef",
+		"kcal" : 138,
+		"carbohidratos" : 14,
+		"proteinas" : 18,
+		"grasa-total" : 1.68,
+		"grasa-sat" : 0.16,
+		"sodio" : 587
+	},{
+		"nombre" : "Ensalada Pechuga de Pollo",
+		"tamano" : 435,
+		"imagen":"e-pechuga-pollo",
+		"kcal" : 184,
+		"carbohidratos" : 17,
+		"proteinas" : 25,
+		"grasa-total" : 2.75,
+		"grasa-sat" : 0.98,
+		"sodio" : 726
+	},{
+		"nombre" : "Ensalada Pavo",
+		"tamano" : 411,
+		"imagen":"e-pavo",
+		"kcal" : 119,
+		"carbohidratos" : 16,
+		"proteinas" : 13,
+		"grasa-total" : 1.69,
+		"grasa-sat" : 0.16,
+		"sodio" : 627
+	},{
+		"nombre" : "Ensalada Jamón",
+		"tamano" : 414,
+		"imagen":"e-jamon",
+		"kcal" : 131,
+		"carbohidratos" : 18,
+		"proteinas" : 13,
+		"grasa-total" : 2.32,
+		"grasa-sat" : 0.76,
+		"sodio" : 594
+	},{
+		"nombre" : "Ensalada Club",
+		"tamano" : 427,
+		"imagen":"e-club",
+		"kcal" : 151,
+		"carbohidratos" : 16,
+		"proteinas" : 20,
+		"grasa-total" : 2.06,
+		"grasa-sat" : 0.31648
+	},{
+		"nombre" : "Ensalada Vegetariana con aguacate",
+		"tamano" : 469,
+		"imagen":"e-vegetariana-aguacate",
+		"kcal" : 253,
+		"carbohidratos" : 24,
+		"proteinas" : 6,
+		"grasa-total" : 18.06,
+		"grasa-sat" : 2.62,
+		"sodio" : 287
+	}]
+},{
+	"nombre" : "Burritos (vegetales y carnes, sin queso ni salsas)",
+	"productos":[{
+		"nombre" : "Burrito Club",
+		"tamano" : 288,
+		"imagen":"b-club",
+		"kcal" : 400,
+		"carbohidratos" : 61,
+		"proteinas" : 26,
+		"grasa-total" : 9.77,
+		"grasa-sat" : 2.75,
+		"sodio" : 1272
+	},{
+		"nombre" : "Burrito Jamón",
+		"tamano" : 267,
+		"imagen":"b-jamon",
+		"kcal" : 379,
+		"carbohidratos" : 62,
+		"proteinas" : 19,
+		"grasa-total" : 10.01,
+		"grasa-sat" : 3.2,
+		"sodio" : 1122
+	},{
+		"nombre" : "Burrito Pavo",
+		"tamano" : 264,
+		"imagen":"b-pavo",
+		"kcal" : 367,
+		"carbohidratos" : 60,
+		"proteinas" : 19,
+		"grasa-total" : 9.38,
+		"grasa-sat" : 2.6,
+		"sodio" : 1155
+	},{
+		"nombre" : "Burrito Pechuga de pollo",
+		"tamano" : 289,
+		"imagen":"b-pechuga-pollo",
+		"kcal" : 432,
+		"carbohidratos" : 62,
+		"proteinas" : 31,
+		"grasa-total" : 10.43,
+		"grasa-sat" : 3.41,
+		"sodio" : 1254
+	},{
+		"nombre" : "Burrito Roast Beef",
+		"tamano" : 263,
+		"imagen":"b-roast-beef",
+		"kcal" : 386,
+		"carbohidratos" : 59,
+		"proteinas" : 24,
+		"grasa-total" : 9.37,
+		"grasa-sat" : 2.6,
+		"sodio" : 1115
+	},{
+		"nombre" : "Burrito Vegetariano con aguacate",
+		"tamano" : 265,
+		"imagen":"b-vegetariano-aguacate",
+		"kcal" : 409,
+		"carbohidratos" : 63,
+		"proteinas" : 11,
+		"grasa-total" : 17.28,
+		"grasa-sat" : 3.83,
+		"sodio" : 811
+	}]
 },{
 	"nombre": "Omelet ",
-	"contenido":{
-		"producto":[{
-			"nombre": "Mezcla Huevo+ Leche (total mezcla)", 
-			"tamano": "", 
-			"kcal": 1920, 
-			"carbohidratos": 79.5, 
-			"proteinas": 156, 
-			"grasa-total": 127.5
-		},{
-			"nombre": "4oz Mezcla (omelet)", 
-			"tamano": "4 oz", 
-			"kcal": 181, 
-			"carbohidratos": 0, 
-			"proteinas": 13.61, 
-			"grasa-total": 11.34, 
-			"grasa-sat": 3.4, 
-			"sodio": 159 
-		},{
-			"nombre": "Omelet (queso y vegetales)", 
-			"tamano": "160 g", 
-			"kcal": 236, 
-			"carbohidratos": 2.09, 
-			"proteinas": 16.56, 
-			"grasa-total": 15.32, 
-			"grasa-sat": 5.72, 
-			"sodio": 353 
-		},{
-			"nombre": "Omelete con Tocineta", 
-			"tamano": "178 g", 
-			"kcal": 323, 
-			"carbohidratos": 2.37, 
-			"proteinas": 22.52, 
-			"grasa-total": 22.01, 
-			"grasa-sat": 7.92, 
-			"sodio": 724 
-		},{
-			"nombre": "Omelet con jamón", 
-			"tamano": "190 g", 
-			"kcal": 268, 
-			"carbohidratos": 3.89, 
-			"proteinas": 21.36, 
-			"grasa-total": 15.92, 
-			"grasa-sat": 6.02, 
-			"sodio": 511 
-		},{
-			"nombre": "Gallo Pinto", 
-			"tamano": "170 g", 
-			"kcal": 289, 
-			"carbohidratos": 50, 
-			"proteinas": 6.8, 
-			"grasa-total": 6.8, 
-			"grasa-sat": 2.6, 
-			"sodio": 446 
-		}]
-	}	
+	"productos":[{
+		"nombre": "Mezcla Huevo+ Leche (total mezcla)", 
+		"tamano": "",
+		"imagen":"o-huevo-leche",
+		"kcal": 1920, 
+		"carbohidratos": 79.5, 
+		"proteinas": 156, 
+		"grasa-total": 127.5
+	},{
+		"nombre": "4oz Mezcla (omelet)", 
+		"tamano": "4 oz", 
+		"imagen":"o-omelet",
+		"kcal": 181, 
+		"carbohidratos": 0, 
+		"proteinas": 13.61, 
+		"grasa-total": 11.34, 
+		"grasa-sat": 3.4, 
+		"sodio": 159 
+	},{
+		"nombre": "Omelet (queso y vegetales)", 
+		"tamano": "160 g", 
+		"imagen":"o-queso-vegetales",
+		"kcal": 236, 
+		"carbohidratos": 2.09, 
+		"proteinas": 16.56, 
+		"grasa-total": 15.32, 
+		"grasa-sat": 5.72, 
+		"sodio": 353 
+	},{
+		"nombre": "Omelete con Tocineta", 
+		"tamano": "178 g", 
+		"imagen":"o-tocineta",
+		"kcal": 323, 
+		"carbohidratos": 2.37, 
+		"proteinas": 22.52, 
+		"grasa-total": 22.01, 
+		"grasa-sat": 7.92, 
+		"sodio": 724 
+	},{
+		"nombre": "Omelet con jamón", 
+		"tamano": "190 g", 
+		"imagen":"o-jamon",
+		"kcal": 268, 
+		"carbohidratos": 3.89, 
+		"proteinas": 21.36, 
+		"grasa-total": 15.92, 
+		"grasa-sat": 6.02, 
+		"sodio": 511 
+	},{
+		"nombre": "Gallo Pinto", 
+		"tamano": "170 g", 
+		"imagen":"o-gallo-pinto",
+		"kcal": 289, 
+		"carbohidratos": 50, 
+		"proteinas": 6.8, 
+		"grasa-total": 6.8, 
+		"grasa-sat": 2.6, 
+		"sodio": 446 
+	}]
 },{
 	"nombre": "Bebidas desayuno",
-	"contenido":{
-		"producto":[{
-			"nombre": "Café con leche sin azúcar", 
-			"tamano": "250 ml", 
-			"kcal": 30, 
-			"carbohidratos": 3, 
-			"proteinas": 2, 
-			"grasa-total": 1.25
-		},{
-			"nombre": "Jugo de Naranja", 
-			"tamano": "250 ml", 
-			"kcal": 112, 
-			"carbohidratos": 25, 
-			"proteinas": 2, 
-			"grasa-total": 0, 
-			"grasa-sat": 0, 
-			"sodio": 25 
-		}]
-	}
+	"productos":[{
+		"nombre": "Café con leche sin azúcar", 
+		"tamano": "250 ml", 
+		"imagen":"be-cafe",
+		"kcal": 30, 
+		"carbohidratos": 3, 
+		"proteinas": 2, 
+		"grasa-total": 1.25,
+		"grasa-sat":0,
+		"sodio":0
+	},{
+		"nombre": "Jugo de Naranja", 
+		"tamano": "250 ml", 
+		"imagen":"be-jugo-naranja",
+		"kcal": 112, 
+		"carbohidratos": 25, 
+		"proteinas": 2, 
+		"grasa-total": 0, 
+		"grasa-sat": 0, 
+		"sodio": 25 
+	}]
 },{
 	"nombre": "Panes",
-	"contenido":{
-		"producto":[{
-			"nombre": "Sub 15' Pan Blanco", 
-			"tamano": "70 g", 
-			"kcal": 200, 
-			"carbohidratos": 36.89, 
-			"proteinas": 8.54, 
-			"grasa-total": 1.96, 
-			"grasa-sat": 0.7, 
-			"sodio": 340 
-		},{
-			"nombre": "Tostadas", 
-			"tamano": "18 g", 
-			"kcal": 51, 
-			"carbohidratos": 9.49, 
-			"proteinas": 2.19, 
-			"grasa-total": 0.5, 
-			"grasa-sat": 0.18, 
-			"sodio": 87 
-		}]
-	}	
+	"productos":[{
+		"nombre": "Sub 15' Pan Blanco", 
+		"tamano": "70 g", 
+		"imagen":"pan-blanco",
+		"kcal": 200, 
+		"carbohidratos": 36.89, 
+		"proteinas": 8.54, 
+		"grasa-total": 1.96, 
+		"grasa-sat": 0.7, 
+		"sodio": 340 
+	},{
+		"nombre": "Tostadas", 
+		"tamano": "18 g", 
+		"imagen":"p-tostadas",
+		"kcal": 51, 
+		"carbohidratos": 9.49, 
+		"proteinas": 2.19, 
+		"grasa-total": 0.5, 
+		"grasa-sat": 0.18, 
+		"sodio": 87 
+	}]
 },{
-	"nombre": "Desayuno 1: pinto+ omelet", 
-	"contenido":{
-		"producto":[{
-			"nombre": "Omelet (queso y vegetales)", 
-			"tamano": "160 g", 
-			"kcal": 236, 
-			"carbohidratos": 2.09, 
-			"proteinas": 16.56, 
-			"grasa-total": 15.32, 
-			"grasa-sat": 5.72, 
-			"sodio": 353 
-		},{
-			"nombre": "Gallopinto", 
-			"tamano": "170 g", 
-			"kcal": 289, 
-			"carbohidratos": 50, 
-			"proteinas": 6.8, 
-			"grasa-total": 6.8, 
-			"grasa-sat": 2.6, 
-			"sodio": 446 
-		},{
-			"nombre": "Tostadas", 
-			"tamano": "18 g", 
-			"kcal": 51, 
-			"carbohidratos": 36.89, 
-			"proteinas": 8.54, 
-			"grasa-total": 0.5, 
-			"grasa-sat": 0.18, 
-			"sodio": 87 
-		},{
-			"nombre": "Natilla", 
-			"tamano": "50 g", 
-			"kcal": 53, 
-			"carbohidratos": 1.67, 
-			"proteinas": 1.67, 
-			"grasa-total": 6, 
-			"grasa-sat": 2.5, 
-			"sodio": 0 
-		},{
-			"nombre": "Café con leche sin azúcar", 
-			"tamano": "250 ml", 
-			"kcal": 30, 
-			"carbohidratos": 3, 
-			"proteinas": 2, 
-			"grasa-total": 1.25
-		}]
-	}	
+	"nombre": "Desayuno 1: pinto y omelet", 
+	"productos":[{
+		"nombre": "Omelet (queso y vegetales)", 
+		"tamano": "160 g", 
+		"imagen":"o-queso-vegetales",
+		"kcal": 236, 
+		"carbohidratos": 2.09, 
+		"proteinas": 16.56, 
+		"grasa-total": 15.32, 
+		"grasa-sat": 5.72, 
+		"sodio": 353 
+	},{
+		"nombre": "Gallopinto", 
+		"tamano": "170 g", 
+		"imagen":"o-gallo-pinto",
+		"kcal": 289, 
+		"carbohidratos": 50, 
+		"proteinas": 6.8, 
+		"grasa-total": 6.8, 
+		"grasa-sat": 2.6, 
+		"sodio": 446 
+	},{
+		"nombre": "Tostadas", 
+		"tamano": "18 g", 
+		"imagen":"p-tostadas",
+		"kcal": 51, 
+		"carbohidratos": 36.89, 
+		"proteinas": 8.54, 
+		"grasa-total": 0.5, 
+		"grasa-sat": 0.18, 
+		"sodio": 87 
+	},{
+		"nombre": "Natilla", 
+		"tamano": "50 g", 
+		"imagen":"s-natilla",
+		"kcal": 53, 
+		"carbohidratos": 1.67, 
+		"proteinas": 1.67, 
+		"grasa-total": 6, 
+		"grasa-sat": 2.5, 
+		"sodio": 0 
+	},{
+		"nombre": "Café con leche sin azúcar", 
+		"tamano": "250 ml", 
+		"imagen":"be-cafe",
+		"kcal": 30, 
+		"carbohidratos": 3, 
+		"proteinas": 2, 
+		"grasa-total": 1.25
+	}]
 },{
 	"nombre": "Desayuno 2: Sub con omelet Jamon", 
-	"contenido":{
-		"producto":[{
-			"nombre": "Sub con omelet  jamón", 
-			"tamano": "262 g", 
-			"kcal": 467, 
-			"carbohidratos": 40.83, 
-			"proteinas": 29.93, 
-			"grasa-total": 17.88, 
-			"grasa-sat": 6.51, 
-			"sodio": 749 
-		},{
-			"nombre": "Café con leche", 
-			"tamano": "250 ml", 
-			"kcal": 64, 
-			"carbohidratos": 3, 
-			"proteinas": 2, 
-			"grasa-total": 1.25
-		}]
-	}	
+	"productos":[{
+		"nombre": "Sub con omelet  jamón", 
+		"tamano": "262 g", 
+		"imagen":"s-omelet-jamon",
+		"kcal": 467, 
+		"carbohidratos": 40.83, 
+		"proteinas": 29.93, 
+		"grasa-total": 17.88, 
+		"grasa-sat": 6.51, 
+		"sodio": 749 
+	},{
+		"nombre": "Café con leche", 
+		"tamano": "250 ml", 
+		"imagen":"be-cafe",
+		"kcal": 64, 
+		"carbohidratos": 3, 
+		"proteinas": 2, 
+		"grasa-total": 1.25
+	}]
 },{
 	"nombre": "Desayuno 3: Tostadas Francesas",
-	"contenido":{
-		"producto":[{
-			"nombre": "Tostadas Francesas", 
-			"tamano": "101 g", 
-			"kcal": 236, 
-			"carbohidratos": 31.62, 
-			"proteinas": 12.22, 
-			"grasa-total": 5.76, 
-			"grasa-sat": 1.65, 
-			"sodio": 261 
-		},{
-			"nombre": "Jarabe de Maple ", 
-			"tamano": "60 ml", 
-			"kcal": 250, 
-			"carbohidratos": 56, 
-			"proteinas": 0, 
-			"grasa-total": 0, 
-			"grasa-sat": 0, 
-			"sodio": 60 
-		},{
-			"nombre": "Café con leche (2%) sin azúcar", 
-			"tamano": "250 ml", 
-			"kcal": 30, 
-			"carbohidratos": 3, 
-			"proteinas": 2, 
-			"grasa-total": 1.25
-		}]
-	}
+	"productos":[{
+		"nombre": "Tostadas Francesas", 
+		"tamano": "101 g", 
+		"imagen":"p-tostadas",
+		"kcal": 236, 
+		"carbohidratos": 31.62, 
+		"proteinas": 12.22, 
+		"grasa-total": 5.76, 
+		"grasa-sat": 1.65, 
+		"sodio": 261 
+	},{
+		"nombre": "Jarabe de Maple ", 
+		"tamano": "60 ml", 
+		"imagen":"d3-jarabe-maple",
+		"kcal": 250, 
+		"carbohidratos": 56, 
+		"proteinas": 0, 
+		"grasa-total": 0, 
+		"grasa-sat": 0, 
+		"sodio": 60 
+	},{
+		"nombre": "Café con leche (2%) sin azúcar", 
+		"tamano": "250 ml", 
+		"imagen":"be-cafe",
+		"kcal": 0.1, 
+		"carbohidratos": 3, 
+		"proteinas": 2, 
+		"grasa-total": 1.25,
+		"sodio":0,
+		"grasa-sat":0
+	}]
 },{
 	"nombre":"Otros Desayunos",
-	"contenido":{
-		"producto":[{
-			"nombre": "Desayuno 4:  Burrito Tipico", 
-			"tamano": "370 g", 
-			"kcal": 667, 
-			"carbohidratos": 81.86, 
-			"proteinas": 26.77, 
-			"grasa-total": 26.52, 
-			"grasa-sat": 8.57, 
-			"sodio": 1091 
-		},{
-			"nombre": "Desayuno 5: Sub de omelet con Tocineta", 
-			"tamano": "248 g", 
-			"kcal": 523, 
-			"carbohidratos": 39.26, 
-			"proteinas": 31.06, 
-			"grasa-total": 23.96, 
-			"grasa-sat": 8.41, 
-			"sodio": 962 
-		}]
-	}
+	"productos":[{
+		"nombre": "Desayuno 4:  Burrito Tipico", 
+		"tamano": "370 g", 
+		"imagen":"burrito-tipico",
+		"kcal": 667, 
+		"carbohidratos": 81.86, 
+		"proteinas": 26.77, 
+		"grasa-total": 26.52, 
+		"grasa-sat": 8.57, 
+		"sodio": 1091 
+	},{
+		"nombre": "Desayuno 5: Sub de omelet con Tocineta", 
+		"tamano": "248 g", 
+		"imagen":"d5-s-omelet-tocineta",
+		"kcal": 523, 
+		"carbohidratos": 39.26, 
+		"proteinas": 31.06, 
+		"grasa-total": 23.96, 
+		"grasa-sat": 8.41, 
+		"sodio": 962 
+	}]
 }]}
