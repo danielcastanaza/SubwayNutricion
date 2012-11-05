@@ -86,7 +86,7 @@
 	"productos":[{
 		"nombre" : "Pechuga de pollo",
 		"tamano" : 71,
-		"imagen":"c-pechuga-pollo",
+		"imagen":"c-pollo",
 		"kcal" : 80,
 		"carbohidratos" : 0,
 		"proteinas" : 16,
@@ -136,7 +136,7 @@
 	},{
 		"nombre" : "Albóndigas c/salsa",
 		"tamano" : 139,
-		"imagen":"c-albondigas-salsa",
+		"imagen":"c-albondigas",
 		"kcal" : 260,
 		"carbohidratos" : 16,
 		"proteinas" : 13,
@@ -163,16 +163,6 @@
 		"grasa-total" : 14,
 		"grasa-sat" : 5,
 		"sodio" : 990
-	},{
-		"nombre" : "Carne",
-		"tamano" : 71,
-		"imagen":"c-carne",
-		"kcal" : 110,
-		"carbohidratos" : 4,
-		"proteinas" : 15,
-		"grasa-total" : 4,
-		"grasa-sat" : 1.5,
-		"sodio" : 550
 	},{
 		"nombre" : "Pavo y jamón",
 		"tamano" : 70,
@@ -216,7 +206,7 @@
 	},{
 		"nombre" : "Mariscos y Cangrejo",
 		"tamano" : 71,
-		"imagen":"c-mariscos-cangrejo",
+		"imagen":"c-mariscos",
 		"kcal" : 190,
 		"carbohidratos" : 7,
 		"proteinas" : 5,
@@ -226,7 +216,7 @@
 	},{
 		"nombre" : "Pollo Teriyaki",
 		"tamano" : 81,
-		"imagen":"c-pollo-teriyaki",
+		"imagen":"c-teriyaki",
 		"kcal" : 115,
 		"carbohidratos" : 3.25,
 		"proteinas" : 21.94,
@@ -393,7 +383,7 @@
 	"productos":[{
 		"nombre" : "French Fat Free",
 		"tamano" : 42.5,
-		"imagen":"a-french",
+		"imagen":"sa-ranch",
 		"kcal" : 60,
 		"carbohidratos" : 14,
 		"proteinas" : 0,
@@ -403,7 +393,7 @@
 	},{
 		"nombre" : "Italian Fat Free",
 		"tamano" : 42.5,
-		"imagen":"a-italian",
+		"imagen":"sa-ranch",
 		"kcal" : 25,
 		"carbohidratos" : 5,
 		"proteinas" : 0,
@@ -413,7 +403,7 @@
 	},{
 		"nombre" : "Ranch Fat Free",
 		"tamano" : 42.5,
-		"imagen":"a-ranch",
+		"imagen":"sa-ranch",
 		"kcal" : 60,
 		"carbohidratos" : 14,
 		"proteinas" : 0,
@@ -426,7 +416,7 @@
 	"productos":[{
 		"nombre" : "Mayonesa",
 		"tamano" : 5.6,
-		"imagen":"s-mayonesa",
+		"imagen":"sa-natilla",
 		"kcal" : 19,
 		"carbohidratos" : 0.6,
 		"proteinas" : 0.1,
@@ -436,7 +426,7 @@
 	},{
 		"nombre" : "Salsa Tomate",
 		"tamano" : 2.8,
-		"imagen":"s-salsa-tomate",
+		"imagen":"sa-tomate",
 		"kcal" : 3,
 		"carbohidratos" : 0.7,
 		"proteinas" : 0.1,
@@ -446,7 +436,7 @@
 	},{
 		"nombre" : "Mostaza",
 		"tamano" : 1,
-		"imagen":"s-mostaza",
+		"imagen":"sa-mostaza",
 		"kcal" : 1,
 		"carbohidratos" : 0.1,
 		"proteinas" : 0,
@@ -456,7 +446,7 @@
 	},{
 		"nombre" : "Vinagre",
 		"tamano" : 0.7,
-		"imagen":"s-vinagre",
+		"imagen":"sa-vinagre",
 		"kcal" : 0,
 		"carbohidratos" : 0,
 		"proteinas" : 0,
@@ -466,7 +456,7 @@
 	},{
 		"nombre" : "Aceite",
 		"tamano" : 0.8,
-		"imagen":"s-aceite",
+		"imagen":"sa-aceite",
 		"kcal" : 7,
 		"carbohidratos" : 0,
 		"proteinas" : 0,
@@ -476,7 +466,7 @@
 	},{
 		"nombre" : "Cebolla Dulce",
 		"tamano" : 14,
-		"imagen":"s-cebolla-dulce",
+		"imagen":"sa-cebolla-dulce",
 		"kcal" : 23,
 		"carbohidratos" : 5.6,
 		"proteinas" : 0.1,
@@ -486,7 +476,7 @@
 	},{
 		"nombre" : "Vinagreta de Vino tinto",
 		"tamano" : 14,
-		"imagen":"s-vinagreta",
+		"imagen":"sa-vinagreta",
 		"kcal" : 10,
 		"carbohidratos" : 1.8,
 		"proteinas" : 0.1,
@@ -496,7 +486,7 @@
 	},{
 		"nombre" : "Natilla",
 		"tamano" : 50,
-		"imagen":"s-natilla",
+		"imagen":"sa-natilla",
 		"kcal" : 67,
 		"carbohidratos" : 1.7,
 		"proteinas" : 0,
@@ -506,7 +496,7 @@
 	},{
 		"nombre" : "Teriyaki",
 		"tamano" : 14,
-		"imagen":"s-teriyaki",
+		"imagen":"sa-teriyaki",
 		"kcal" : 4,
 		"carbohidratos" : 2.1,
 		"proteinas" : 0.4,
@@ -516,7 +506,7 @@
 	},{
 		"nombre" : "Chipotle",
 		"tamano" : 14,
-		"imagen":"s-chipotle",
+		"imagen":"sa-chipotle",
 		"kcal" : 62,
 		"carbohidratos" : 1.1,
 		"proteinas" : 0,
@@ -602,7 +592,7 @@
 	"productos":[{
 		"nombre" : "Doritos (Nacho Cheese)",
 		"tamano" : 60.2,
-		"imagen":"doritos-nacho-cheese",
+		"imagen":"doritos",
 		"kcal" : 320,
 		"carbohidratos" : 36,
 		"proteinas" : 4,
@@ -685,7 +675,7 @@
 	},{
 		"nombre" : "Gaseosa Dietetica",
 		"tamano" : 250,
-		"imagen":"be-gaseosa-dietetica",
+		"imagen":"be-gaseosa",
 		"kcal" : 0.6,
 		"carbohidratos" : 0,
 		"proteinas" : 0,
@@ -695,7 +685,7 @@
 	},{
 		"nombre" : "Té Frío",
 		"tamano" : 240,
-		"imagen":"be-te-frio",
+		"imagen":"be-gaseosa",
 		"kcal" : 7,
 		"carbohidratos" : 2.4,
 		"proteinas" : 0,
@@ -713,7 +703,7 @@
 	},{
 		"nombre" : "Flor de Jamaica",
 		"tamano" : 240,
-		"imagen":"be-flor-jamaica",
+		"imagen":"be-jamaica",
 		"kcal" : 0,
 		"carbohidratos" : 1,
 		"proteinas" : 0,
@@ -726,7 +716,7 @@
 	"productos":[{
 		"nombre" : "Tomate y Vegetales",
 		"tamano" : 10,
-		"imagen":"so-tomate-vegetales",
+		"imagen":"sopa",
 		"kcal" : 90,
 		"carbohidratos" : 20,
 		"proteinas" : 3,
@@ -736,7 +726,7 @@
 	},{
 		"nombre" : "Brocoli Queso",
 		"tamano" : 10,
-		"imagen":"so-brocoli-queso",
+		"imagen":"so-brocoli",
 		"kcal" : 200,
 		"carbohidratos" : 14,
 		"proteinas" : 4,
@@ -767,7 +757,7 @@
 },{
 	"nombre" : "Sandwich (vegetales y pan italiano sub de 15 cm, sin queso ni salsas)",
 	"productos":[{
-		"nombre" : "15 cm Vegetariano (sin aguacate)",
+		"nombre" : "Vegetariano (sin aguacate)",
 		"tamano" : 168,
 		"imagen":"s-vegetariano",
 		"kcal" : 220,
@@ -777,7 +767,7 @@
 		"grasa-sat" : 0.6,
 		"sodio" : 362
 	},{
-		"nombre" : "15 cm Roast Beef",
+		"nombre" : "Roast Beef",
 		"tamano" : 224,
 		"imagen":"s-roast-beef",
 		"kcal" : 290,
@@ -787,9 +777,9 @@
 		"grasa-sat" : 0.57,
 		"sodio" : 670
 	},{
-		"nombre" : "15 cm Pechuga de Pollo",
+		"nombre" : "Pechuga de Pollo",
 		"tamano" : 249,
-		"imagen":"s-pechuga-pollo",
+		"imagen":"s-pollo",
 		"kcal" : 336,
 		"carbohidratos" : 44,
 		"proteinas" : 31,
@@ -797,7 +787,7 @@
 		"grasa-sat" : 1.37,
 		"sodio" : 808
 	},{
-		"nombre" : "15 cm Pavo",
+		"nombre" : "Pavo",
 		"tamano" : 224,
 		"imagen":"s-pavo",
 		"kcal" : 277,
@@ -807,7 +797,7 @@
 		"grasa-sat" : 0.96,
 		"sodio" : 931
 	},{
-		"nombre" : "15 cm Club",
+		"nombre" : "Club",
 		"tamano" : 250,
 		"imagen":"s-club",
 		"kcal" : 306,
@@ -817,7 +807,7 @@
 		"grasa-sat" : 0.71,
 		"sodio" : 831
 	},{
-		"nombre" : "15 cm Jamón",
+		"nombre" : "Jamón",
 		"tamano" : 232,
 		"imagen":"s-jamon",
 		"kcal" : 287,
@@ -827,7 +817,7 @@
 		"grasa-sat" : 1.2,
 		"sodio" : 697
 	},{
-		"nombre" : "15 cm Pavo y Jamón",
+		"nombre" : "Pavo y Jamón",
 		"tamano" : 238,
 		"imagen":"s-pavo-jamon",
 		"kcal" : 287,
@@ -842,7 +832,7 @@
 	"productos":[{
 		"nombre" : "Ensalada Roast beef",
 		"tamano" : 410,
-		"imagen":"e-roast-beef",
+		"imagen":"e-club",
 		"kcal" : 138,
 		"carbohidratos" : 14,
 		"proteinas" : 18,
@@ -852,7 +842,7 @@
 	},{
 		"nombre" : "Ensalada Pechuga de Pollo",
 		"tamano" : 435,
-		"imagen":"e-pechuga-pollo",
+		"imagen":"e-pollo",
 		"kcal" : 184,
 		"carbohidratos" : 17,
 		"proteinas" : 25,
@@ -862,7 +852,7 @@
 	},{
 		"nombre" : "Ensalada Pavo",
 		"tamano" : 411,
-		"imagen":"e-pavo",
+		"imagen":"e-jamon",
 		"kcal" : 119,
 		"carbohidratos" : 16,
 		"proteinas" : 13,
@@ -891,7 +881,7 @@
 	},{
 		"nombre" : "Ensalada Vegetariana con aguacate",
 		"tamano" : 469,
-		"imagen":"e-vegetariana-aguacate",
+		"imagen":"e-vegetariana",
 		"kcal" : 253,
 		"carbohidratos" : 24,
 		"proteinas" : 6,
@@ -914,7 +904,7 @@
 	},{
 		"nombre" : "Burrito Jamón",
 		"tamano" : 267,
-		"imagen":"b-jamon",
+		"imagen":"b-club",
 		"kcal" : 379,
 		"carbohidratos" : 62,
 		"proteinas" : 19,
@@ -924,7 +914,7 @@
 	},{
 		"nombre" : "Burrito Pavo",
 		"tamano" : 264,
-		"imagen":"b-pavo",
+		"imagen":"b-club",
 		"kcal" : 367,
 		"carbohidratos" : 60,
 		"proteinas" : 19,
@@ -934,7 +924,7 @@
 	},{
 		"nombre" : "Burrito Pechuga de pollo",
 		"tamano" : 289,
-		"imagen":"b-pechuga-pollo",
+		"imagen":"b-pollo",
 		"kcal" : 432,
 		"carbohidratos" : 62,
 		"proteinas" : 31,
@@ -944,7 +934,7 @@
 	},{
 		"nombre" : "Burrito Roast Beef",
 		"tamano" : 263,
-		"imagen":"b-roast-beef",
+		"imagen":"b-club",
 		"kcal" : 386,
 		"carbohidratos" : 59,
 		"proteinas" : 24,
@@ -954,7 +944,7 @@
 	},{
 		"nombre" : "Burrito Vegetariano con aguacate",
 		"tamano" : 265,
-		"imagen":"b-vegetariano-aguacate",
+		"imagen":"b-vegetariano",
 		"kcal" : 409,
 		"carbohidratos" : 63,
 		"proteinas" : 11,
@@ -967,7 +957,7 @@
 	"productos":[{
 		"nombre": "Mezcla Huevo+ Leche (total mezcla)", 
 		"tamano": "",
-		"imagen":"o-huevo-leche",
+		"imagen":"omelet",
 		"kcal": 1920, 
 		"carbohidratos": 79.5, 
 		"proteinas": 156, 
@@ -975,7 +965,7 @@
 	},{
 		"nombre": "4oz Mezcla (omelet)", 
 		"tamano": "4 oz", 
-		"imagen":"o-omelet",
+		"imagen":"omelet",
 		"kcal": 181, 
 		"carbohidratos": 0, 
 		"proteinas": 13.61, 
@@ -985,7 +975,7 @@
 	},{
 		"nombre": "Omelet (queso y vegetales)", 
 		"tamano": "160 g", 
-		"imagen":"o-queso-vegetales",
+		"imagen":"omelet",
 		"kcal": 236, 
 		"carbohidratos": 2.09, 
 		"proteinas": 16.56, 
@@ -995,7 +985,7 @@
 	},{
 		"nombre": "Omelete con Tocineta", 
 		"tamano": "178 g", 
-		"imagen":"o-tocineta",
+		"imagen":"omelet",
 		"kcal": 323, 
 		"carbohidratos": 2.37, 
 		"proteinas": 22.52, 
@@ -1005,7 +995,7 @@
 	},{
 		"nombre": "Omelet con jamón", 
 		"tamano": "190 g", 
-		"imagen":"o-jamon",
+		"imagen":"omelet",
 		"kcal": 268, 
 		"carbohidratos": 3.89, 
 		"proteinas": 21.36, 
@@ -1015,7 +1005,7 @@
 	},{
 		"nombre": "Gallo Pinto", 
 		"tamano": "170 g", 
-		"imagen":"o-gallo-pinto",
+		"imagen":"pinto",
 		"kcal": 289, 
 		"carbohidratos": 50, 
 		"proteinas": 6.8, 
@@ -1038,7 +1028,7 @@
 	},{
 		"nombre": "Jugo de Naranja", 
 		"tamano": "250 ml", 
-		"imagen":"be-jugo-naranja",
+		"imagen":"be-naranja",
 		"kcal": 112, 
 		"carbohidratos": 25, 
 		"proteinas": 2, 
@@ -1074,7 +1064,7 @@
 	"productos":[{
 		"nombre": "Omelet (queso y vegetales)", 
 		"tamano": "160 g", 
-		"imagen":"o-queso-vegetales",
+		"imagen":"omelet",
 		"kcal": 236, 
 		"carbohidratos": 2.09, 
 		"proteinas": 16.56, 
@@ -1084,7 +1074,7 @@
 	},{
 		"nombre": "Gallopinto", 
 		"tamano": "170 g", 
-		"imagen":"o-gallo-pinto",
+		"imagen":"pinto",
 		"kcal": 289, 
 		"carbohidratos": 50, 
 		"proteinas": 6.8, 
@@ -1104,7 +1094,7 @@
 	},{
 		"nombre": "Natilla", 
 		"tamano": "50 g", 
-		"imagen":"s-natilla",
+		"imagen":"sa-natilla",
 		"kcal": 53, 
 		"carbohidratos": 1.67, 
 		"proteinas": 1.67, 
@@ -1125,7 +1115,7 @@
 	"productos":[{
 		"nombre": "Sub con omelet  jamón", 
 		"tamano": "262 g", 
-		"imagen":"s-omelet-jamon",
+		"imagen":"s-omelet",
 		"kcal": 467, 
 		"carbohidratos": 40.83, 
 		"proteinas": 29.93, 
@@ -1156,7 +1146,7 @@
 	},{
 		"nombre": "Jarabe de Maple ", 
 		"tamano": "60 ml", 
-		"imagen":"d3-jarabe-maple",
+		"imagen":"maple",
 		"kcal": 250, 
 		"carbohidratos": 56, 
 		"proteinas": 0, 
@@ -1179,7 +1169,7 @@
 	"productos":[{
 		"nombre": "Desayuno 4:  Burrito Tipico", 
 		"tamano": "370 g", 
-		"imagen":"burrito-tipico",
+		"imagen":"b-club",
 		"kcal": 667, 
 		"carbohidratos": 81.86, 
 		"proteinas": 26.77, 
@@ -1189,7 +1179,7 @@
 	},{
 		"nombre": "Desayuno 5: Sub de omelet con Tocineta", 
 		"tamano": "248 g", 
-		"imagen":"d5-s-omelet-tocineta",
+		"imagen":"s-omelet",
 		"kcal": 523, 
 		"carbohidratos": 39.26, 
 		"proteinas": 31.06, 

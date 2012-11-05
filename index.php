@@ -48,9 +48,9 @@ echo $datos->categoria[0]->nombre;
 			</div>
 			<div class="pie_chart">
 					<div class="chart">
-						<div id="chart_sodio" style="width:180px; height:200px;"></div>
+						<div id="chart_carbohidrato" style="width:180px; height:200px;"></div>
 					</div>
-					<h2>Sodio</h2>
+					<h2>Carbohidratos</h2>
 			</div>
 		
 		</section>

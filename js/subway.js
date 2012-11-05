@@ -18,10 +18,13 @@ var vals = {
 		'val': 0,
 		'diario': 2300,
 		'color': '#9C5606', //cafe
-		'graficar': true,
+		'graficar': false,
 	},
 	'carbohidrato': {
 		'val': 0,
+		'diario':300,
+		'color':'#9C5606',
+		'graficar':true
 	},
 	'proteina': {
 		'val': 0,
@@ -38,7 +41,13 @@ jQuery(document).ready(function() {
 
 	});
 
-	
+	/*if ($(window).height()<=125) {
+		$('#promociones article')$.each(function() {
+			
+		});
+
+		$('body').scrollTop();
+	};*/
 
 	$('#resultado h1').toggle(function() {
 		// resultadoAtras();
