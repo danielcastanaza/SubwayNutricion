@@ -125,6 +125,13 @@ echo $datos->categoria[0]->nombre;
 </section>
 
 
+<nav>
+	<ul>
+		<li><a href="./" class="act">Calculadora</a></li>
+		<li><a href="consejos.html">Consejos</a></li>
+	</ul>
+</nav>
+
 <section id="productos">
 
 <?php foreach ($datos['categorias'] as $categoria): ?>
