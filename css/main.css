@@ -249,10 +249,10 @@ header
 	padding: 0;
 }
 
-#consejos{
+#consejos, #niveles{
 	padding: 10px;
 }
-#consejos article{
+.cajas article{
 	margin: 0 auto;
 	background: #F8FFE8;
 	max-width: 635px;
@@ -269,18 +269,36 @@ header
 	background-size: 100%;
 	background-image: url(../images/pin.png);
 }
-#consejos article h2{
+.cajas article h2{
 	color: #5E4902;
 	padding: 10px;
 	font-size: 2em;
 	margin: 0;
 }
-#consejos article p{
+.cajas article p{
 	padding: 10px;
 	font-size: 1.2em;
 	margin: 0;
 	color: #595442;
 	text-align: justify;
+	padding-top: 0px;
+}
+
+#niveles .medalla img{
+	margin-left: -5px;
+	margin-right: 10px;
+	margin-top: -5px;
+	float: left;
+	width: 100px;
+	height: 140px;
+}
+
+#productos.canje{
+	padding-bottom: 0;
+}
+
+#productos.canje .contenido{
+	padding: 30px;
 }
 
 #footer
@@ -358,6 +376,13 @@ body{
 	border-bottom-right-radius:10px;
 	border-bottom: 1px solid rgba(157,214,152,0.40);
 }
+
+#niveles .medalla img{
+	margin-left: -30px;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
 }
 
 @media only screen and (max-height: 340px){
