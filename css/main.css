@@ -306,6 +306,9 @@ nav{
 }
 nav ul{
 	text-align: center;
+	margin: 10px 0;
+	padding: 0;
+
 }
 nav li{
 	list-style: none;
@@ -314,14 +317,13 @@ nav li{
 }
 nav li a{
 	display: block;
-	height: 53px;
 	border: 1px solid rgba(157,214,152,0.40);
-	padding: 3px 30px;
+	padding: 0 30px;
 	color: #D4F2D3;
 	font-size: 15px;
 	line-height: 43px;
 	margin: 0;
-	height:47px;
+	height:37px;
 	text-decoration: none;
 	background: -moz-linear-gradient(top, rgba(113,185,67,0) 0%, rgba(72,144,68,0.41) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(113,185,67,0)), color-stop(100%,rgba(72,144,68,0.41))); /* Chrome,Safari4+ */
