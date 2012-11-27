@@ -69,10 +69,10 @@ jQuery(document).ready(function() {
 	});
 
 	$('#productos article .detalle').click(function(event) {
-		height = $(window).height()-55;
+		height = 200; //$(window).height()-55;
 		$('#resultado .detalle').show();
 		$('#resultado .atras').show();
-		$('#resultado .contenido').animate({'height': height});
+		// $('#resultado .contenido').animate({'height': height});
 		$('#resultado .valores').hide();
 		$('#resultado .graficos').hide();
 		// console.log($(this).siblings('h3').text());
