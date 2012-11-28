@@ -23,15 +23,70 @@ echo $datos->categoria[0]->nombre;
 
 <body>
 
+<section id="mas_info">
+	<div><div>
+		<button class="cerrar"></button>
+		<div>
+		<section class="productos_valores">
+			<table style="display:none;">
+				<tr>
+					<th class="titulo">Nombre del Producto</th>
+					<th></th>
+				</tr>
+				<tr class="kcal"><td>KiloCalorías</td><td>0</td></tr>
+				<tr class="carbohidrato"><td>Carbohidratos</td><td>0</td></tr>
+				<tr class="proteina"><td>Proteina</td><td>0</td></tr>
+				<tr class="grasa-total"><td>Grasa Total</td><td>0</td></tr>
+				<tr class="grasa-sat"><td>Grasa Saturada</td><td>0</td></tr>
+				<tr class="sodio"><td>Sodio</td><td>0</td></tr>
+			</table>
+		</section>
+		<section class="valores">
+			<table>
+				<tr>
+					<th class="titulo">Total</th>
+					<th></th>
+				</tr>
+				<tr class="kcal"><td>KiloCalorías</td><td>0</td></tr>
+				<tr class="carbohidrato"><td>Carbohidratos</td><td>0</td></tr>
+				<tr class="proteina"><td>Proteina</td><td>0</td></tr>
+				<tr class="grasa-total"><td>Grasa Total</td><td>0</td></tr>
+				<tr class="grasa-sat"><td>Grasa Saturada</td><td>0</td></tr>
+				<tr class="sodio"><td>Sodio</td><td>0</td></tr>
+			</table>
+		</section>
+			
+	</div></div></div>
+</section>
+
+<section id="detalle">
+	<div><div>
+		<button class="cerrar"></button>
+		<article><div>
+			<img src="images/blank.png" style="background-image: url(productos/s-vegetariano.jpg)" alt="tomate">
+			<h3><span>Hola</span></h3>
+		</div></article>
+
+		<table>
+			<tr class="kcal"><td>KiloCalorías</td><td>0</td></tr>
+			<tr class="carbohidrato"><td>Carbohidratos</td><td>0</td></tr>
+			<tr class="proteina"><td>Proteina</td><td>0</td></tr>
+			<tr class="grasa-total"><td>Grasa Total</td><td>0</td></tr>
+			<tr class="grasa-sat"><td>Grasa Saturada</td><td>0</td></tr>
+			<tr class="sodio"><td>Sodio</td><td>0</td></tr>
+		</table>
+	</div></div>
+</section>
 
 <section id="resultado">
 	<header>
 		<button class="atras"></button>
-		<h1>Recomendación diaria (2000 kcal)</h1>
-		<button class="mover"></button>
+		<h1>Gráficos y detalle del total</h1>
+		<button class="ocultar mostrar"></button>
 	</header><!-- header -->
 	
 	<section class="contenido">
+		
 		<section class="graficos">
 			
 			<div class="pie_chart">
@@ -52,10 +107,10 @@ echo $datos->categoria[0]->nombre;
 					</div>
 					<h2>Carbohidratos</h2>
 			</div>
-		
+			<a class="mas_info" href="#">Mostrar más detalles</a>
 		</section>
-		
-		<section class="valores">
+
+		<section id="totales" class="valores">
 			<div>
 				<table>
 					<tr class="kcal">
@@ -85,36 +140,7 @@ echo $datos->categoria[0]->nombre;
 				</table>
 			</div>
 		</section>
-		<section class="detalle">
-			<div>
-				<table>
-					<tr class="kcal">
-						<td>KiloCalorías</td>
-						<td>0</td>
-					</tr>
-					<tr class="carbohidrato">
-						<td>Carbohidratos</td>
-						<td>0</td>
-					</tr>
-					<tr class="proteina">
-						<td>Proteina</td>
-						<td>0</td>
-					</tr>
-					<tr class="grasa-total">
-						<td>Grasa Total</td>
-						<td>0</td>
-					</tr>
-					<tr class="grasa-sat">
-						<td>Grasa Saturada</td>
-						<td>0</td>
-					</tr>
-					<tr class="sodio">
-						<td>Sodio</td>
-						<td>0</td>
-					</tr>
-				</table>
-			</div>
-		</section>
+				
 	</section>
 
 	<footer>
@@ -129,12 +155,16 @@ echo $datos->categoria[0]->nombre;
 	<ul>
 		<li><a href="./" class="act">Calculadora</a></li>
 		<li><a href="consejos.html">Consejos</a></li>
+		<li><a href="#">Ayuda</a></li>
 	</ul>
 </nav>
 
 <section id="productos">
 
-<?php foreach ($datos['categorias'] as $categoria): ?>
+<?php
+$categoria_count=1;
+$producto_count=1;
+ foreach ($datos['categorias'] as $categoria):?>
 	
 	<section class="categoria">
 		<h2>
@@ -145,6 +175,7 @@ echo $datos->categoria[0]->nombre;
 	<?php foreach ($categoria['productos'] as $producto): ?>
 
 			<article 
+				data-id="<?php echo $categoria_count; ?>_<?php echo $producto_count; ?>"
 				data-kcal="<?php echo $producto['kcal']; ?>"
 				data-grasa-sat="<?php echo $producto["grasa-sat"]; ?>"
 				data-sodio="<?php echo $producto['sodio']; ?>"
@@ -157,10 +188,10 @@ echo $datos->categoria[0]->nombre;
 				<button class="detalle"></button>
 			</div></article>
 		
-	<?php endforeach ?>
+	<?php $producto_count++; endforeach ?>
 		</div></section>
 	</section>
-<?php endforeach ?>
+<?php $categoria_count++; endforeach ?>
 	
 </section>
 <script class="include" type="text/javascript" src="js/jquery.jqplot.min.js"></script>

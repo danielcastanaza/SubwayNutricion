@@ -1,6 +1,9 @@
 var lleno_color = '#D82A2D'; //rojo
 var vacio_color = '#94C493'; //verde opaco
 
+var alto_contenido = 165;
+var mostrar_resultado = false;
+
 var vals = {
 	'kcal': {
 		'val': 0,
@@ -34,90 +37,68 @@ var vals = {
 	},
 }
 
+
 jQuery(document).ready(function() {
-	$(window).resize(function(event) {
-		// console.log($(window).width());
-		// console.log($(window).height());
-
+	$(".cerrar").click(function () {
+		$(this).parent().parent().parent().fadeOut('fast');
+	})
+	if ($(window).height()>=430) {
+		mostrarResultado();
+	};
+	$('#resultado h1').click(function() {
+		mostrarOcultarResultado();
+	});
+	$('#resultado .ocultar').click(function() {
+		mostrarOcultarResultado();
 	});
 
-	/*if ($(window).height()<=125) {
-		$('#promociones article')$.each(function() {
-			
-		});
-
-		$('body').scrollTop();
-	};*/
-
-	$('#resultado h1').toggle(function() {
-		// resultadoAtras();
-		height = $(window).height()-55;
-		if ($(window).width() <= 702) {
-			$(this).parent().next().animate({'height': height});
-		}else{
-			$(this).parent().next().animate({'height': 0});
-		}
-	}, function() {
-		// resultadoAtras();
-		$(this).parent().next().animate({'height': 140});
-	}, function() {
-		// resultadoAtras();
-		$(this).parent().next().animate({'height': 0});
-	}, function() {
-		// resultadoAtras();
-		$(this).parent().next().animate({'height': 140});
-	});
-
-	$('#productos article .detalle').click(function(event) {
-		height = 200; //$(window).height()-55;
-		$('#resultado .detalle').show();
-		$('#resultado .atras').show();
-		// $('#resultado .contenido').animate({'height': height});
-		$('#resultado .valores').hide();
-		$('#resultado .graficos').hide();
-		// console.log($(this).siblings('h3').text());
-		producto = this;
-		$('#resultado h1').text($(producto).siblings('h3').text());
-		$.each(vals, function(key, val) {
-			$('.detalle table .'+key+' td:last').text($(producto).parent().parent().data(key));
-			// console.log($(producto).parent().parent().data(key));
-			// console.log(key);
-		});
+	$('#resultado .mas_info').click(function () {
+		$("#mas_info").fadeIn('fast');
 		return false;
-	});
-
-	$('#resultado .atras').click(function(event) {
-		resultadoAtras();
-		$('#resultado .contenido').animate({'height': 140});
+	})
+	$('#productos article').click(function(event) {
+		mostrarDetalle($(this));
 	});
 	
-	$('#productos article ').toggle(function() {
-		actualizarValores(this,1);
-		$(this).find('.agregar').addClass('activo');
+	$('#productos article .agregar').toggle(function() {
+		actualizarValores($(this).parent().parent(),1);
+		$(this).addClass('activo');
 	}, function() {
-		actualizarValores(this,-1);
-		$(this).find('.agregar').removeClass('activo');
+		actualizarValores($(this).parent().parent(),-1);
+		$(this).removeClass('activo');
 	});
-	
 	$('.categoria h2').click(function(event) {
 		$(this).next().slideToggle(200);
 		$(this).children('button').toggleClass('mostrar');
 	});
-
 	actualizarGraficos();
 	actualizarTabla();
 });
-/*function actualizarDetalle (producto) {
+function mostrarOcultarResultado () {
 
-
-}*/
-
-function resultadoAtras(){
-	$('#resultado .detalle').hide();
-	$('#resultado .atras').hide();
-	$('#resultado .valores').show();
-	$('#resultado .graficos').show();
-	$('#resultado h1').text('Recomendación diaria (2000 kcal)');
+	if (mostrar_resultado) {
+		$("#resultado .contenido").animate({'height': 0});
+		$("#resultado .ocultar").addClass('mostrar');
+		mostrar_resultado = false;
+	}else{
+		$("#resultado .contenido").animate({'height': alto_contenido});
+		$("#resultado .ocultar").removeClass('mostrar');	
+		mostrar_resultado = true;	
+	}
+}
+function mostrarResultado(){
+	$("#resultado .contenido").animate({'height': alto_contenido});
+	$("#resultado .ocultar").removeClass('mostrar');	
+	mostrar_resultado = true;
+}
+function mostrarDetalle (producto) {
+	$('#detalle').fadeIn('fast');
+	var title = $(producto).find('h3').text();
+	$('#detalle article h3 span').text(title);
+	$.each(vals, function(key, val) {
+		$('#detalle table .'+key+' td:last').text($(producto).data(key));
+	});
+	return false;
 }
 
 function actualizarValores(producto,sumar) {
@@ -126,12 +107,38 @@ function actualizarValores(producto,sumar) {
 		// console.log($(producto).data(key));
 		val.val += $(producto).data(key)*sumar;
 	});
+	if (sumar==1) {
+		agregarProductoMasInfo(producto);
+	} else{
+		quitarProductoMasInfo(producto);
+	}
 	actualizarTabla();
 	actualizarGraficos();
+	mostrarResultado();
+}
+function agregarProductoMasInfo(producto){
+	var title = $(producto).find('h3').text();
+	var id = $(producto).data('id');
+	$('#mas_info .productos_valores table:last-child .titulo').text(title);
+	$('#mas_info .productos_valores table:last-child').attr('id', id);
+	$.each(vals, function(key, val) {
+		$('#mas_info .productos_valores table:last .'+key+' td:last').text($(producto).data(key));
+	});
+	$("#mas_info .productos_valores table:last-child")
+	.show()
+	.clone()
+	.attr('id','')
+	.appendTo('#mas_info .productos_valores')
+	.hide();
+}
+function quitarProductoMasInfo (producto) {
+	var id = $(producto).data('id');
+	$('#mas_info #'+id).remove();
 }
 function actualizarTabla () {
 	$.each(vals, function(key, val) {
 		// console.log(key);
+		$('#mas_info .valores table .'+key+' td:last').text(val.val.toFixed(2));
 		$('.valores table .'+key+' td:last').text(val.val.toFixed(2));
 	});
 }
