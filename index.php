@@ -155,7 +155,7 @@ echo $datos->categoria[0]->nombre;
 	<ul>
 		<li><a href="./" class="act">Calculadora</a></li>
 		<li><a href="consejos.html">Consejos</a></li>
-		<li><a href="#">Ayuda</a></li>
+		<!-- <li><a href="#">Ayuda</a></li> -->
 	</ul>
 </nav>
 
@@ -182,7 +182,7 @@ $producto_count=1;
 				data-carbohidrato="<?php echo $producto['carbohidratos']; ?>"
 				data-proteina="<?php echo $producto['proteinas']; ?>"
 				data-grasa-total="<?php echo $producto['grasa-total']; ?>"><div>
-				<img src="images/blank.png" style="background-image: url(productos/<?php echo $producto['imagen']; ?>.jpg)" alt="tomate">
+				<img src="images/blank.png" style="background-image: url(productos/<?php echo $producto['imagen']; ?>.jpg)">
 				<h3><span><?php echo $producto['nombre'] ?></span></h3>
 				<button class="agregar"></button>
 				<button class="detalle"></button>
