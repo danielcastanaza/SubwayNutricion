@@ -4,13 +4,23 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	color: #555;
+	color: white;
 	font: normal 10pt Helvetica,Arial,sans-serif;
 	background: #EFEFEF;
 	background-image: url(../images/fondo_iphone.png);
 	background-size:100% auto;
 	/*height: 100%;*/
 	/*overflow: hidden;*/
+}
+
+#info{
+	color: darkgreen;
+	font-size: 1.5em;
+	font-weight: lighter;
+	text-align: center;
+}
+#info img{
+	vertical-align: middle;
 }
 
 header
@@ -257,7 +267,7 @@ table th{
 }*/
 
 #productos{
-	padding-bottom: 180px;
+	padding-bottom: 230px;
 	/*height:60%;*/
 	/*overflow: auto;*/
 }
@@ -439,6 +449,7 @@ table th{
 #productos.canje .contenido{
 	padding: 30px;
 }
+
 
 nav{
 

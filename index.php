@@ -144,7 +144,6 @@ echo $datos->categoria[0]->nombre;
 	</section>
 
 	<footer>
-	
 		<div class="window_width"></div>
 		<div class="kcal"></div>
 	</footer>
@@ -158,6 +157,10 @@ echo $datos->categoria[0]->nombre;
 		<!-- <li><a href="#">Ayuda</a></li> -->
 	</ul>
 </nav>
+
+<section id="info">
+	<p>Productos con el Aval de: <br> <img src="images/acdyn.png" width="116" /></p>
+</section>
 
 <section id="productos">
 
