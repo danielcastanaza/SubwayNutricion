@@ -94,9 +94,9 @@ function mostrarResultado(){
 function mostrarDetalle (producto) {
 	$('#detalle').fadeIn('fast');
 	var title = $(producto).find('h3').text();
-	var image = $(producto).find('img').css('background-image');
+	var image = $(producto).find('.img').css('background-image');
 	$('#detalle article h3 span').text(title);
-	$('#detalle article img').css('background-image', image);
+	$('#detalle article .img').css('background-image', image);
 	$.each(vals, function(key, val) {
 		$('#detalle table .'+key+' td:last').text($(producto).data(key));
 	});
