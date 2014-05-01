@@ -79,6 +79,7 @@ echo $datos->categoria[0]->nombre;
 </section>
 
 <section id="resultado">
+	<div>
 	<header>
 		<button class="atras"></button>
 		<h1>Gráficos y detalle del total</h1>
@@ -108,6 +109,7 @@ echo $datos->categoria[0]->nombre;
 					<h2>Carbohidratos</h2>
 			</div>
 			<a class="mas_info" href="#">Mostrar más detalles</a>
+		
 		</section>
 
 		<section id="totales" class="valores">
@@ -147,6 +149,7 @@ echo $datos->categoria[0]->nombre;
 		<div class="window_width"></div>
 		<div class="kcal"></div>
 	</footer>
+</div>
 </section>
 
 
