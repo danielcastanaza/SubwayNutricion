@@ -193,7 +193,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	margin-right: 7px;
 }
 #resultado .ocultar{
-	top: 11px !important;
+	top: 21px !important;
 
 }
 #resultado .contenido{
@@ -248,7 +248,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #resultado a.mas_info{
 	display: inline-block;
 	border: 1px solid rgba(0,74,0,0.80);
-	box-shadow:0 1px 0 rgba(157,214,152,0.80);
 	padding: 0;
 	color: #D4F2D3;
 	font-size: 15px;
@@ -307,11 +306,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	background-repeat: no-repeat;
 	background-size: 11px 8px;
 	border: none;
-	height: 26px;
-	right: 6px;
+	height: 10px;
+	right: 6px;	
 	width: 26px;
 	padding: 0;
-	top: 5px;
+	top: 13px;
 	position: absolute;
 }
 #productos .ocultar.mostrar{
@@ -323,7 +322,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	background-repeat: no-repeat;
 	background-size: 11px 8px;
 	border: none;
-	height: 26px;
+	height: 9px;
 	right: 6px;
 	width: 26px;
 	padding: 0;
@@ -395,15 +394,14 @@ border-top: 2px solid rgba(21, 87, 15, .60);
 	background-color:transparent;
 	background-image: url(../images/agregar_des.png);
 	background-repeat: no-repeat;
-	background-size: 26px 26px;
+	background-size: 11px 11px;
 	border: none;
 	position: absolute;
-	right: 42px;
-	top: 19px;
-	height: 28px;
-	margin-top: -3px;
-	width: 28px;
-	padding: 0;
+	background-position: 50% 50%;
+	right: 32px;
+	top: 0px;
+	height: 67px;
+	width: 35px;
 }
 #productos .agregar.activo{
 	background-image: url(../images/agregar.png);
@@ -428,11 +426,20 @@ border-top: 2px solid rgba(21, 87, 15, .60);
 }
 .cajas article{
 	margin: 0 auto;
-	background: #F8FFE8;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(209,240,175,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(209,240,175,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(209,240,175,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(209,240,175,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(209,240,175,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(209,240,175,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1f0af',GradientType=0 ); /* IE6-9 */
 	max-width: 635px;
+	border-radius: 4px;
 	position: relative;
 	margin-bottom: 20px;
-	box-shadow: 0 6px 3px 0 rgba(0,0,0,0.39);
+	padding-bottom: 1px;
+	box-shadow: 0px 0px 0px 2px rgba(21,87,15,0.20);
 }
 #consejos .pin{
 	width: 24px;
@@ -444,7 +451,7 @@ border-top: 2px solid rgba(21, 87, 15, .60);
 	background-image: url(../images/pin.png);
 }
 .cajas article h2{
-	color: #5E4902;
+	color: #734C03;
 	padding: 10px;
 	font-size: 2em;
 	margin: 0;
@@ -453,9 +460,15 @@ border-top: 2px solid rgba(21, 87, 15, .60);
 	padding: 10px;
 	font-size: 1.2em;
 	margin: 0;
-	color: #595442;
+	color: #000000;
 	text-align: justify;
 	padding-top: 0px;
+	background-size: 98% 11px;
+	margin-bottom: -13px;
+	padding-bottom: 20px;
+	background-image: url(../images/consejo_sombra.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 #niveles .medalla img{
@@ -471,8 +484,7 @@ border-top: 2px solid rgba(21, 87, 15, .60);
 	padding-bottom: 0;
 }
 
-#productos.canje .contenido{
-	padding: 30px;
+#productos.canje .contenido{ 
 }
 
 
@@ -557,11 +569,11 @@ body{
 	float: right;
 }
 #resultado .valores div{
-	border-left: 1px solid rgba(0,0,0,0.28);
 }
 
 #productos article>div{
-	border: 1px solid rgba(157,214,152,0.40);
+
+	/*border: 2px solid rgba(21,87,15,0.20);*/
 }
 #productos article:nth-child(odd) {/*impar*/
 	float: left;
@@ -571,27 +583,29 @@ body{
 	float: right;
 	width: 50%;
 }
-#productos article:nth-child(odd) div{/*impar*/
-	border-bottom: none;
+#productos article:nth-child(odd)>div{/*impar*/
+	border-right: 2px solid rgba(21,87,15,0.20);
 }
 #productos article:nth-child(even) div{/*par*/
-	border-bottom: none;
-	border-left: none;
+	/*border-bottom: none;
+	border-left: none;*/
 }
 
-
+#productos article:nth-child(2) >div{
+	border-top: 2px solid rgba(21, 87, 15, .60);
+}
 
 #productos article:nth-child(even):last-child div{/*par*/
-	border-bottom: 1px solid rgba(157,214,152,0.40);
+	/*border-bottom: 1px solid rgba(157,214,152,0.40);*/
 }
 #productos article:nth-child(odd):nth-last-child(2) div{/*izq impar*/
-	border-bottom: 1px solid rgba(157,214,152,0.40);
+	/*border-bottom: 1px solid rgba(157,214,152,0.40);*/
 }
 #productos article:nth-child(odd):last-child div{/*izq impar*/
-	border-bottom: 1px solid rgba(157,214,152,0.40);
+	/*border-bottom: 1px solid rgba(157,214,152,0.40);*/
 }
 #productos article:nth-child(even):nth-last-child(2) div{/*par*/
-	border-bottom: 1px solid rgba(157,214,152,0.40);
+	/*border-bottom: 1px solid rgba(157,214,152,0.40);*/
 }
 
 #niveles .medalla img{
